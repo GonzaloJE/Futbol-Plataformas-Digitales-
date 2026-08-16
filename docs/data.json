@@ -1,29 +1,308 @@
 {
-  "generado": "2026-08-16T12:00:00",
+  "generado": "2026-08-16T16:50:54",
   "partidos": [
     {
-      "fuente": "Colo Colo",
-      "fecha": "2026-08-16",
-      "hora": "17:30",
-      "equipos": ["Colo Colo", "O'Higgins"],
-      "canales": ["TNT Sports Premium HD", "TNT Sports Premium", "HBO MAX"],
-      "canales_abuelo": ["TNT Sports Premium HD", "TNT Sports Premium"]
+      "fuente": "Copa del Rey",
+      "fecha": "2026-03-03",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
     },
     {
-      "fuente": "Colo Colo",
-      "fecha": "2026-08-23",
+      "fuente": "Selección Chilena",
+      "fecha": "2026-03-04",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-18",
       "hora": "15:00",
-      "equipos": ["U de Chile", "Colo Colo"],
-      "canales": ["TNT Sports Premium HD", "TNT Sports Premium", "HBO MAX"],
-      "canales_abuelo": ["TNT Sports Premium HD", "TNT Sports Premium"]
+      "equipos": [
+        "Fenerbahçe",
+        "O. Lyonnais"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-18",
+      "hora": "15:00",
+      "equipos": [
+        "GNK Dinamo Zagreb",
+        "Viking FK"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-19",
+      "hora": "15:00",
+      "equipos": [
+        "NEC Nijmegen",
+        "Bodø/Glimt"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-19",
+      "hora": "15:00",
+      "equipos": [
+        "Hapoel Beer Sheva",
+        "Sabah FK"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-19",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": "2026-08-27",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
     },
     {
       "fuente": "Colo Colo",
-      "fecha": "2026-08-30",
+      "fecha": "2026-12-06",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "Manchester City",
+      "fecha": "2027-05-30",
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "Manchester City",
+      "fecha": null,
+      "hora": "10:00",
+      "equipos": [
+        "Arsenal",
+        "Bournemouth"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": null,
+      "hora": "10:30",
+      "equipos": [
+        "FC Basel",
+        "Al Ahly"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Disney+ Premium",
+        "FC Barcelona PPV YouTube",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO",
+        "Disney+ Premium"
+      ]
+    },
+    {
+      "fuente": "Selección Chilena",
+      "fecha": null,
+      "hora": "11:00",
+      "equipos": [
+        "R.D. Congo",
+        "Portugal"
+      ],
+      "canales": [
+        "13Go",
+        "Canal 13",
+        "ChileVisión",
+        "ChileVisión Web",
+        "Chilevisión YouTube",
+        "DGO",
+        "DSPORTS+ Plus (613/1613)",
+        "DSports 2 (612/1612)",
+        "DSports 4",
+        "DSports 6",
+        "Disney+ Premium",
+        "ESPN",
+        "ESPN 5",
+        "T13",
+        "T13.cl"
+      ],
+      "canales_abuelo": [
+        "DGO",
+        "Disney+ Premium",
+        "ESPN",
+        "ESPN 5"
+      ]
+    },
+    {
+      "fuente": "Colo Colo",
+      "fecha": null,
       "hora": "17:30",
-      "equipos": ["Colo Colo", "Audax Italiano"],
-      "canales": ["TNT Sports Premium HD", "TNT Sports Premium", "HBO MAX"],
-      "canales_abuelo": ["TNT Sports Premium HD", "TNT Sports Premium"]
+      "equipos": [
+        "O'Higgins",
+        "U de Chile"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "Colo Colo, Manchester City, FC Barcelona, Selección Chilena, Champions League, Copa del Rey",
+      "fecha": null,
+      "hora": null,
+      "equipos": [
+        "Colo Colo",
+        "U de Chile"
+      ],
+      "canales": [
+        "DSports (610/1610)",
+        "ESPN",
+        "FOX Sports 1",
+        "GolTV",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "ESPN",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
     }
   ]
 }
