@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-17T13:56:27",
+  "generado": "2026-08-18T14:05:48",
   "partidos": [
     {
       "fuente": "Champions League",
@@ -35,17 +35,19 @@
     },
     {
       "fuente": "Champions League",
-      "fecha": "2026-08-19",
+      "fecha": "2026-08-18",
       "hora": "15:00",
       "equipos": [
-        "NEC Nijmegen",
-        "Bodø/Glimt"
+        "Levski Sofia",
+        "AEK FC"
       ],
       "canales": [
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ]
     },
     {
