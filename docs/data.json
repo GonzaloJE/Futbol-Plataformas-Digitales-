@@ -1,53 +1,53 @@
 {
-  "generado": "2026-08-18T14:05:48",
+  "generado": "2026-08-19T14:06:28",
   "partidos": [
     {
       "fuente": "Champions League",
-      "fecha": "2026-08-18",
+      "fecha": "2026-08-19",
       "hora": "15:00",
       "equipos": [
-        "Fenerbahçe",
-        "O. Lyonnais"
+        "NEC Nijmegen",
+        "Bodø/Glimt"
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-19",
+      "hora": "15:00",
+      "equipos": [
+        "Celtic FC",
+        "LASK Linz"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
         "ESPN"
       ]
     },
     {
       "fuente": "Champions League",
-      "fecha": "2026-08-18",
+      "fecha": "2026-08-19",
       "hora": "15:00",
       "equipos": [
-        "GNK Dinamo Zagreb",
-        "Viking FK"
+        "Slovan Bratislava",
+        "NK Celje"
       ],
       "canales": [
         "ESPN 2"
       ],
       "canales_abuelo": [
         "ESPN 2"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-18",
-      "hora": "15:00",
-      "equipos": [
-        "Levski Sofia",
-        "AEK FC"
-      ],
-      "canales": [
-        "ESPN 5",
-        "ESPN Premium"
-      ],
-      "canales_abuelo": [
-        "ESPN 5",
-        "ESPN Premium"
       ]
     },
     {
