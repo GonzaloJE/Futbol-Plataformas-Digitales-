@@ -1,68 +1,19 @@
 {
-  "generado": "2026-08-19T14:06:28",
+  "generado": "2026-08-20T14:10:31",
   "partidos": [
     {
       "fuente": "Champions League",
-      "fecha": "2026-08-19",
-      "hora": "15:00",
+      "fecha": "2026-08-25",
+      "hora": "12:45",
       "equipos": [
-        "NEC Nijmegen",
-        "Bodø/Glimt"
+        "Sabah FK",
+        "Hapoel Beer Sheva"
       ],
       "canales": [
-        "Disney+ Premium",
-        "ESPN 5",
-        "ESPN Premium"
+        "Disney+ Premium"
       ],
       "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN 5",
-        "ESPN Premium"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-19",
-      "hora": "15:00",
-      "equipos": [
-        "Celtic FC",
-        "LASK Linz"
-      ],
-      "canales": [
-        "ESPN"
-      ],
-      "canales_abuelo": [
-        "ESPN"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-19",
-      "hora": "15:00",
-      "equipos": [
-        "Slovan Bratislava",
-        "NK Celje"
-      ],
-      "canales": [
-        "ESPN 2"
-      ],
-      "canales_abuelo": [
-        "ESPN 2"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-19",
-      "hora": "15:00",
-      "equipos": [
-        "Hapoel Beer Sheva",
-        "Sabah FK"
-      ],
-      "canales": [
-        "ESPN 3"
-      ],
-      "canales_abuelo": [
-        "ESPN 3"
+        "Disney+ Premium"
       ]
     }
   ]
