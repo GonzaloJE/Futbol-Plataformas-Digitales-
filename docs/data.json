@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-20T14:10:31",
+  "generado": "2026-08-21T14:07:03",
   "partidos": [
     {
       "fuente": "Champions League",
@@ -10,10 +10,59 @@
         "Hapoel Beer Sheva"
       ],
       "canales": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN 3"
       ],
       "canales_abuelo": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN 3"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-25",
+      "hora": "15:00",
+      "equipos": [
+        "LASK Linz",
+        "Celtic FC"
+      ],
+      "canales": [
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "ESPN 5",
+        "ESPN Premium"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-26",
+      "hora": "15:00",
+      "equipos": [
+        "AEK FC",
+        "Levski Sofia"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "fecha": "2026-08-26",
+      "hora": "15:00",
+      "equipos": [
+        "Viking FK",
+        "GNK Dinamo Zagreb"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
       ]
     }
   ]
