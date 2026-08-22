@@ -1,9 +1,17 @@
 """
 Scraper de futbolenvivochile.com para el abuelo de Gonz.
 
-Recorre las páginas de equipos/competiciones prioritarias, extrae los
-próximos partidos y se queda solo con los que se transmiten por algún
-canal/plataforma que el abuelo SÍ tiene:
+Enfoque (v3):
+  1. Cada partido futuro (más allá del inmediato) aparece en tablas HTML
+     reales dentro de la página, una tabla por fecha. Se leen directamente
+     esas tablas: hora | competición | equipo1 | equipo2 | canales.
+  2. El partido MÁS INMEDIATO de cada equipo/competición no siempre está
+     en esas tablas (a veces solo aparece en una frase de resumen tipo
+     "El próximo partido que podrás ver será X - Y ... transmitido por
+     Z, W"). Esa frase se parsea aparte con una expresión regular.
+
+Se queda solo con partidos que se transmiten por algún canal/plataforma
+que el abuelo SÍ tiene:
   - Disney+ Premium
   - DGO (DirecTV GO) - incluye su canal de deporte y TNT Sports Premium
   - TNT Sports Premium / TNT Sports Premium HD
@@ -17,6 +25,7 @@ Genera:
 import json
 import re
 import time
+import traceback
 from datetime import datetime, date
 from urllib.parse import urljoin
 
@@ -26,10 +35,6 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.futbolenvivochile.com"
 
 # --- Configuración: qué equipos seguir --------------------------------------
-# slug: parte final de la URL (/equipo/colo-colo -> "colo-colo")
-# nombre_filtro: texto que debe aparecer en el nombre del equipo dentro del
-#                partido, para descartar partidos de OTROS equipos que a
-#                veces se cuelan desde otras secciones de la página.
 EQUIPOS = {
     "Colo Colo": {"slug": "equipo/colo-colo", "nombre_filtro": "Colo Colo"},
     "Manchester City": {"slug": "equipo/manchester-city", "nombre_filtro": "Manchester City"},
@@ -64,9 +69,24 @@ DATE_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Marcadores de texto que indican el FIN de la zona de partidos en la página
-# (todo lo que viene después es ranking, estadísticas, etc. y hay que ignorarlo)
-FIN_ZONA_RE = re.compile(r"ranking por|datos estad[ií]sticos", re.IGNORECASE)
+MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11,
+    "diciembre": 12,
+}
+PROXIMO_PARTIDO_FECHA_RE = re.compile(
+    r"(\d{1,2}) de (\w+) de (\d{4}).*?(\d{1,2}):(\d{2})", re.IGNORECASE | re.DOTALL
+)
+
+# Frase completa que la web repite en cada página de equipo/competición.
+# Se busca sobre el TEXTO PLANO (sin depender de qué partes estén en negrita,
+# porque eso varía levemente entre "podrás ver" / "se podrá ver").
+PROXIMO_PARTIDO_RE = re.compile(
+    r"pr[oó]ximo partido que (?:podr[aá]s ver|se podr[aá] ver) ser[aá] el (.+?) "
+    r"que se disputar\w+ el pr[oó]ximo (.+? a las \d{1,2}:\d{2}) "
+    r"y que ser[aá] transmitido por (.+?)\.",
+    re.IGNORECASE | re.DOTALL,
+)
 
 
 def normalizar(texto: str) -> str:
@@ -97,81 +117,104 @@ def fetch(url: str) -> BeautifulSoup:
     return BeautifulSoup(resp.text, "lxml")
 
 
-def zona_de_partidos(soup: BeautifulSoup):
-    """
-    Devuelve solo los elementos del DOM que están DESPUÉS del título
-    principal (h1) de la página y ANTES de la sección de rankings/
-    estadísticas. Esa es la única zona donde confiamos en los datos.
-    """
-    todos = soup.find_all(True)
-    h1 = soup.find("h1")
-    if h1 is None:
-        return todos
-
-    try:
-        inicio = todos.index(h1)
-    except ValueError:
-        inicio = 0
-
-    fin = len(todos)
-    for i in range(inicio + 1, len(todos)):
-        texto = todos[i].get_text(" ", strip=True)
-        if FIN_ZONA_RE.search(texto) and len(texto) < 80:
-            fin = i
-            break
-
-    return todos[inicio + 1 : fin]
-
-
-def extraer_partidos(soup: BeautifulSoup, fuente: str):
+def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
+    """Recorre todas las <table> de la página: cada una representa un día,
+    con filas de partidos [hora | competición | equipo1 | equipo2 | canales]."""
     partidos = []
-    fecha_actual = None
 
-    for el in zona_de_partidos(soup):
-        texto = el.get_text(" ", strip=True)
+    for tabla in soup.find_all("table"):
+        fecha_actual = None
+        for fila in tabla.find_all("tr"):
+            celdas = fila.find_all(["td", "th"])
+            texto_fila = fila.get_text(" ", strip=True)
 
-        m = DATE_RE.search(texto)
-        if m and len(texto) < 60:
-            dia, mes, anio = int(m.group(2)), int(m.group(3)), int(m.group(4))
-            try:
-                fecha_actual = date(anio, mes, dia)
-            except ValueError:
-                pass
-
-        enlaces_equipo = el.find_all("a", href=re.compile(r"/equipo/"))
-        enlaces_canal = el.find_all("a", href=re.compile(r"/canal/"))
-
-        if len(enlaces_equipo) >= 2 and len(enlaces_canal) >= 1:
-            hijos_validos = [
-                c for c in el.find_all(True, recursive=False)
-                if len(c.find_all("a", href=re.compile(r"/equipo/"))) >= 2
-                and len(c.find_all("a", href=re.compile(r"/canal/"))) >= 1
-            ]
-            if hijos_validos:
+            # Fila de encabezado con la fecha (suele tener pocas celdas por colspan)
+            if len(celdas) <= 2:
+                m = DATE_RE.search(texto_fila)
+                if m:
+                    dia, mes, anio = int(m.group(2)), int(m.group(3)), int(m.group(4))
+                    try:
+                        fecha_actual = date(anio, mes, dia)
+                    except ValueError:
+                        fecha_actual = None
                 continue
 
-            equipos_txt = [a.get_text(strip=True) for a in enlaces_equipo[:2]]
-            canales_txt = sorted(set(a.get_text(strip=True) for a in enlaces_canal))
-
-            hora_match = re.search(r"\b(\d{1,2}:\d{2})\b", texto)
-            hora = hora_match.group(1) if hora_match else None
-
-            if not equipos_txt[0] or not equipos_txt[1]:
+            if len(celdas) < 5 or fecha_actual is None:
                 continue
-            if not fecha_actual:
-                continue  # sin fecha no sirve para armar la programación semanal
+
+            hora_m = re.search(r"\b(\d{1,2}:\d{2})\b", celdas[0].get_text())
+            hora = hora_m.group(1) if hora_m else None
+
+            equipo1 = celdas[2].get_text(" ", strip=True)
+            equipo2 = celdas[3].get_text(" ", strip=True)
+
+            canal_links = celdas[4].find_all("a", href=re.compile(r"/canal/"))
+            canales = sorted(set(a.get_text(strip=True) for a in canal_links))
+
+            # Sanidad: descartar filas raras (sorteos, celdas vacías, etc.)
+            if not equipo1 or not equipo2 or not canales:
+                continue
+            if len(equipo1) > 40 or len(equipo2) > 40:
+                continue
 
             partidos.append(
                 {
                     "fuente": fuente,
                     "fecha": fecha_actual.isoformat(),
                     "hora": hora,
-                    "equipos": equipos_txt,
-                    "canales": canales_txt,
+                    "equipos": [equipo1, equipo2],
+                    "canales": canales,
                 }
             )
 
     return partidos
+
+
+def extraer_proximo_partido(soup: BeautifulSoup, fuente: str):
+    """Busca la frase 'El próximo partido que podrás ver será X - Y que se
+    disputará el próximo <fecha> a las <hora> ... transmitido por <canales>'
+    sobre el TEXTO PLANO de la página (sin depender de negritas, que
+    varían levemente de página en página). Devuelve 0 o 1 partido."""
+    texto_completo = soup.get_text(" ", strip=True)
+    m = PROXIMO_PARTIDO_RE.search(texto_completo)
+    if not m:
+        return []
+
+    equipos_str, fecha_hora_str, canales_str = m.groups()
+
+    if " - " not in equipos_str:
+        return []
+    equipo1, equipo2 = [e.strip() for e in equipos_str.split(" - ", 1)]
+    # Sanidad: si esto viene mal cortado, los nombres de equipo se disparan de largo
+    if len(equipo1) > 40 or len(equipo2) > 40:
+        return []
+
+    fm = PROXIMO_PARTIDO_FECHA_RE.search(fecha_hora_str)
+    if not fm:
+        return []
+    dia, mes_nombre, anio, hh, mm = fm.groups()
+    mes = MESES.get(normalizar(mes_nombre))
+    if not mes:
+        return []
+    try:
+        fecha = date(int(anio), mes, int(dia))
+    except ValueError:
+        return []
+    hora = f"{int(hh):02d}:{mm}"
+
+    canales = [c.strip() for c in canales_str.split(",") if c.strip()]
+    if not canales:
+        return []
+
+    return [
+        {
+            "fuente": fuente,
+            "fecha": fecha.isoformat(),
+            "hora": hora,
+            "equipos": [equipo1, equipo2],
+            "canales": canales,
+        }
+    ]
 
 
 def deduplicar(partidos):
@@ -188,46 +231,62 @@ def deduplicar(partidos):
     return list(vistos.values())
 
 
+def procesar_pagina(nombre, url, es_equipo, nombre_filtro=None):
+    """Descarga y extrae los partidos de una página. Nunca lanza excepción:
+    si algo falla, imprime el error y devuelve lista vacía, para que el
+    resto del scraper siga funcionando."""
+    print(f"Descargando {nombre} -> {url}")
+    try:
+        soup = fetch(url)
+    except Exception as e:
+        print(f"  ERROR al descargar {nombre}: {e}")
+        return []
+
+    partidos = []
+    try:
+        partidos += extraer_de_tablas(soup, nombre)
+    except Exception:
+        print(f"  ERROR extrayendo tablas de {nombre}:")
+        traceback.print_exc()
+
+    try:
+        partidos += extraer_proximo_partido(soup, nombre)
+    except Exception:
+        print(f"  ERROR extrayendo 'próximo partido' de {nombre}:")
+        traceback.print_exc()
+
+    if es_equipo and nombre_filtro:
+        antes = len(partidos)
+        partidos = [p for p in partidos if equipo_coincide(nombre_filtro, p["equipos"])]
+        print(f"  {antes} partidos en bruto -> {len(partidos)} después de validar equipo")
+    else:
+        print(f"  {len(partidos)} partidos encontrados")
+
+    return partidos
+
+
 def main():
     todos = []
     hoy = date.today()
 
-    # --- Equipos (con verificación de que el equipo realmente esté en el partido) ---
     for nombre, cfg in EQUIPOS.items():
         url = urljoin(BASE_URL + "/", cfg["slug"])
-        print(f"Descargando {nombre} -> {url}")
-        try:
-            soup = fetch(url)
-        except Exception as e:
-            print(f"  ERROR al descargar {nombre}: {e}")
-            continue
-        partidos = extraer_partidos(soup, nombre)
-        antes = len(partidos)
-        partidos = [p for p in partidos if equipo_coincide(cfg["nombre_filtro"], p["equipos"])]
-        print(f"  {antes} partidos en bruto -> {len(partidos)} después de validar equipo")
-        todos.extend(partidos)
+        todos += procesar_pagina(nombre, url, es_equipo=True, nombre_filtro=cfg["nombre_filtro"])
         time.sleep(1.5)
 
-    # --- Competiciones (no se puede validar un solo equipo, pero sí la zona) ---
     for nombre, slug in COMPETICIONES.items():
         url = urljoin(BASE_URL + "/", slug)
-        print(f"Descargando {nombre} -> {url}")
-        try:
-            soup = fetch(url)
-        except Exception as e:
-            print(f"  ERROR al descargar {nombre}: {e}")
-            continue
-        partidos = extraer_partidos(soup, nombre)
-        print(f"  {len(partidos)} partidos encontrados")
-        todos.extend(partidos)
+        todos += procesar_pagina(nombre, url, es_equipo=False)
         time.sleep(1.5)
 
     todos = deduplicar(todos)
 
-    # Filtrar solo partidos futuros (hoy o después) con canal disponible
     filtrados = []
     for p in todos:
-        fecha_partido = date.fromisoformat(p["fecha"])
+        try:
+            fecha_partido = date.fromisoformat(p["fecha"])
+        except Exception:
+            continue
         if fecha_partido < hoy:
             continue
         canales_ok = [c for c in p["canales"] if canal_disponible(c)]
