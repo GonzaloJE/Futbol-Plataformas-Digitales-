@@ -98,6 +98,69 @@
     color: var(--gris);
     padding: 40px 10px;
   }
+  .cal-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+  .cal-nav h2 {
+    color: var(--azul);
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 1.2em;
+    min-width: 180px;
+    text-align: center;
+  }
+  .calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+  .cal-header {
+    font-weight: bold;
+    text-align: center;
+    background: var(--azul);
+    color: white;
+    padding: 4px 2px;
+    border-radius: 4px;
+    font-size: 0.75em;
+  }
+  .cal-dia {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    min-height: 78px;
+    padding: 3px;
+    font-size: 0.68em;
+    background: white;
+  }
+  .cal-dia.cal-vacia {
+    background: transparent;
+    border: none;
+  }
+  .cal-dia .num {
+    font-weight: bold;
+    color: var(--gris);
+    margin-bottom: 2px;
+    font-size: 0.95em;
+  }
+  .cal-nota {
+    background: #fdeceb;
+    border-left: 3px solid var(--rojo);
+    border-radius: 3px;
+    padding: 1px 3px;
+    margin-bottom: 2px;
+    line-height: 1.15;
+    overflow: hidden;
+  }
+  .cal-nota img {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    margin-right: 2px;
+  }
   .actualizado {
     text-align: center;
     color: #999;
@@ -108,9 +171,13 @@
   @media print {
     body { background: white; max-width: 100%; }
     .botones { display: none; }
+    .cal-nav button { display: none; }
     .dia h2 { background: #eee !important; color: #000 !important; -webkit-print-color-adjust: exact; }
     .partido { border-left-color: #000; break-inside: avoid; }
     .semana-oculta { display: none; }
+    .cal-header { background: #eee !important; color: #000 !important; -webkit-print-color-adjust: exact; }
+    .cal-dia { break-inside: avoid; border-color: #000; }
+    .cal-nota { border-left-color: #000; background: #f5f5f5 !important; -webkit-print-color-adjust: exact; }
   }
 </style>
 </head>
@@ -122,7 +189,8 @@
 <div class="botones">
   <button onclick="mostrarTodo()">Ver todos</button>
   <button onclick="mostrarSemana()">Ver solo esta semana</button>
-  <button class="rojo"onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+  <button onclick="mostrarCalendarioMesActual()">📅 Ver por mes</button>
+  <button class="rojo" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
 </div>
 
 <div id="contenido">Cargando...</div>
@@ -261,6 +329,93 @@ function render(soloSemana) {
 
 function mostrarTodo() { render(false); }
 function mostrarSemana() { render(true); }
+
+// ===== Vista de calendario mensual =====
+let mesVista = new Date();
+mesVista.setDate(1);
+
+const NOMBRES_MES = ["enero","febrero","marzo","abril","mayo","junio",
+  "julio","agosto","septiembre","octubre","noviembre","diciembre"];
+
+function generarCeldasMes(anio, mes) {
+  const primerDia = new Date(anio, mes, 1);
+  const ultimoDia = new Date(anio, mes + 1, 0);
+  const diasEnMes = ultimoDia.getDate();
+  const inicioSemana = primerDia.getDay(); // 0 = domingo
+  const celdas = [];
+  for (let i = 0; i < inicioSemana; i++) celdas.push(null);
+  for (let d = 1; d <= diasEnMes; d++) celdas.push(d);
+  while (celdas.length % 7 !== 0) celdas.push(null);
+  return celdas;
+}
+
+function renderCalendario() {
+  const cont = document.getElementById('contenido');
+  cont.innerHTML = '';
+
+  const anio = mesVista.getFullYear();
+  const mes = mesVista.getMonth();
+
+  const nav = document.createElement('div');
+  nav.className = 'cal-nav';
+  nav.innerHTML = `
+    <button onclick="cambiarMesCalendario(-1)">◀</button>
+    <h2>${NOMBRES_MES[mes]} ${anio}</h2>
+    <button onclick="cambiarMesCalendario(1)">▶</button>
+  `;
+  cont.appendChild(nav);
+
+  const lista = quitarDuplicados(datos);
+  const porFecha = {};
+  lista.forEach(p => {
+    if (!p.fecha) return;
+    if (!porFecha[p.fecha]) porFecha[p.fecha] = [];
+    porFecha[p.fecha].push(p);
+  });
+
+  const grid = document.createElement('div');
+  grid.className = 'calendario-grid';
+
+  ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"].forEach(nombreDia => {
+    const h = document.createElement('div');
+    h.className = 'cal-header';
+    h.textContent = nombreDia;
+    grid.appendChild(h);
+  });
+
+  const celdas = generarCeldasMes(anio, mes);
+  celdas.forEach(diaNum => {
+    const celda = document.createElement('div');
+    if (diaNum === null) {
+      celda.className = 'cal-dia cal-vacia';
+      grid.appendChild(celda);
+      return;
+    }
+    celda.className = 'cal-dia';
+    const fechaKey = `${anio}-${String(mes + 1).padStart(2,'0')}-${String(diaNum).padStart(2,'0')}`;
+    let html = `<div class="num">${diaNum}</div>`;
+    (porFecha[fechaKey] || []).forEach(p => {
+      const logoLocal = obtenerLogo(p.equipos[0]) || obtenerLogo(p.equipos[1]);
+      const img = logoLocal ? `<img src="${logoLocal}" onerror="this.style.display='none'">` : '';
+      html += `<div class="cal-nota">${img}<b>${p.hora || ''}</b> ${p.equipos.join(' vs ')}</div>`;
+    });
+    celda.innerHTML = html;
+    grid.appendChild(celda);
+  });
+
+  cont.appendChild(grid);
+}
+
+function cambiarMesCalendario(delta) {
+  mesVista.setMonth(mesVista.getMonth() + delta);
+  renderCalendario();
+}
+
+function mostrarCalendarioMesActual() {
+  mesVista = new Date();
+  mesVista.setDate(1);
+  renderCalendario();
+}
 
 fetch('data.json?_=' + Date.now())
   .then(r => r.json())
