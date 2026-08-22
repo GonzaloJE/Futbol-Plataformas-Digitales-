@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-22T04:05:45",
+  "generado": "2026-08-22T13:43:55",
   "partidos": [
     {
       "fuente": "Manchester City",
@@ -53,23 +53,6 @@
       "fuente": "FC Barcelona",
       "fecha": "2026-08-23",
       "hora": "15:30",
-      "equipos": [
-        "Elche",
-        "FC Barcelona"
-      ],
-      "canales": [
-        "Disney+ Premium",
-        "ESPN"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN"
-      ]
-    },
-    {
-      "fuente": "FC Barcelona",
-      "fecha": "2026-08-23",
-      "hora": "21:30",
       "equipos": [
         "Elche",
         "FC Barcelona"
