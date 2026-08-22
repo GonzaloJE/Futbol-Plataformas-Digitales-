@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
 <title>Partidos del Abuelo</title>
 <style>
   :root {
@@ -77,6 +77,16 @@
   .partido .equipos {
     font-weight: 600;
     font-size: 1.05em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .logo-equipo {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    vertical-align: middle;
   }
   .partido .canales {
     color: var(--gris);
@@ -112,14 +122,66 @@
 <div class="botones">
   <button onclick="mostrarTodo()">Ver todos</button>
   <button onclick="mostrarSemana()">Ver solo esta semana</button>
-  <button class="rojo" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+  <button class="rojo"onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
 </div>
 
 <div id="contenido">Cargando...</div>
-<div class="actualizado" id="actualizado"></div>
+<div class="actualizado"id="actualizado"></div>
 
 <script>
 let datos = [];
+
+// Mapa de nombre de equipo (tal como aparece en data.json) -> URL del escudo.
+// Si el scraper usa nombres distintos (ej. "Man City"en vez de "Manchester City"),
+// agrega esa variante como otra clave apuntando al mismo link.
+// Los escudos se guardan DENTRO del repo (docs/ ) en vez de enlazarlos
+// desde Wikipedia u otro sitio externo, para que nunca se rompan ni dependan
+// de que un tercero mantenga el link vivo. Sube cada imagen a docs/ 
+// con el nombre de archivo indicado en cada línea.
+const logosEquipos = {
+  "Colo Colo": "colo-colo.webp",
+
+  "Barcelona": "barcelona.webp",
+  "FC Barcelona": "barcelona.webp",
+
+  "Manchester City": "man-city.webp",
+  "Man City": "man-city.webp",
+
+  "Real Madrid": "real-madrid.webp",
+
+  "Liverpool": "liverpool.webp",
+  "Liverpool FC": "liverpool.webp",
+
+  "Arsenal": "arsenal.webp",
+  "Arsenal FC": "arsenal.webp",
+
+  "Manchester United": "man-united.webp",
+  "Man United": "man-united.webp",
+
+  "Bayern Munich": "bayern.webp",
+  "Bayern München": "bayern.webp",
+  "FC Bayern Múnich": "bayern.webp",
+
+  "Betis": "betis.webp",
+  "Real Betis": "betis.webp",
+
+  "Inter de Milan": "inter.webp",
+  "Inter Milan": "inter.webp",
+  "Inter de Milán": "inter.webp",
+
+  "Boca Juniors": "boca.webp"
+};
+
+function obtenerLogo(nombreEquipo) {
+  return logosEquipos[nombreEquipo] || null;
+}
+
+// Arma el HTML de un equipo: escudo (si existe) + nombre
+function equipoHTML(nombre) {
+  const logo = obtenerLogo(nombre);
+  const img = logo ? `<img src="${logo}"alt="${nombre}"class="logo-equipo"loading="lazy"onerror="this.style.display='none'">` : '';
+  return `<span style="display:inline-flex; align-items:center; gap:4px;">${img}${nombre}</span>`;
+}
 
 function diaSemanaTexto(fechaStr) {
   const dias = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
@@ -135,11 +197,25 @@ function inicioFinSemana() {
   return [hoy, fin];
 }
 
+// Si el data.json trae el mismo partido repetido (mismos equipos + misma fecha),
+// nos quedamos con uno solo, prefiriendo el que tenga más canales listados.
+function quitarDuplicados(lista) {
+  const vistos = new Map();
+  lista.forEach(p => {
+    const clave = (p.fecha || '') + '|' + [...p.equipos].sort().join('-');
+    const existente = vistos.get(clave);
+    if (!existente || (p.canales_abuelo || []).length > (existente.canales_abuelo || []).length) {
+      vistos.set(clave, p);
+    }
+  });
+  return Array.from(vistos.values());
+}
+
 function render(soloSemana) {
   const cont = document.getElementById('contenido');
   cont.innerHTML = '';
 
-  let lista = datos;
+  let lista = quitarDuplicados(datos);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
     lista = datos.filter(p => {
@@ -170,9 +246,10 @@ function render(soloSemana) {
     porDia[fecha].forEach(p => {
       const div = document.createElement('div');
       div.className = 'partido';
+      const equiposHTML = p.equipos.map(equipoHTML).join(' <span style="font-weight:400;">vs</span> ');
       div.innerHTML = `
-        <div><span class="hora">${p.hora || '--:--'}</span>
-        <span class="equipos">${p.equipos.join(' vs ')}</span></div>
+        <div><span class="hora">${p.hora || '--:--'}</span></div>
+        <div class="equipos">${equiposHTML}</div>
         <div class="canales">📺 ${p.canales_abuelo.join(', ')}</div>
       `;
       divDia.appendChild(div);
