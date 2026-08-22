@@ -283,6 +283,8 @@
 
 <div class="filtro-plataformas" id="filtroPlataformas"></div>
 
+<div class="filtro-plataformas" id="filtroCompeticiones"></div>
+
 <div id="contenido">Cargando...</div>
 
 <script>
@@ -430,6 +432,70 @@ function armarFiltroPlataformas() {
   });
 }
 
+// ===== Filtro de ligas/competiciones de interés =====
+let competicionesSeleccionadas = null; // Set<string>, se llena al cargar los datos
+
+function nombreCompeticion(p) {
+  // No todos los partidos traen "competicion" (por ejemplo el que se saca
+  // de la frase "próximo partido"); en ese caso usamos la fuente como
+  // mejor aproximación (nombre del equipo o competición seguida).
+  return p.competicion || p.fuente || 'Otra';
+}
+
+function cargarCompeticionesGuardadas() {
+  try {
+    const guardado = localStorage.getItem('competicionesSeleccionadas');
+    return guardado ? new Set(JSON.parse(guardado)) : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function guardarCompeticionesSeleccionadas() {
+  try {
+    localStorage.setItem('competicionesSeleccionadas', JSON.stringify([...competicionesSeleccionadas]));
+  } catch (e) { /* si falla, no pasa nada, solo no persiste */ }
+}
+
+function pasaFiltroCompeticion(p) {
+  if (!competicionesSeleccionadas || competicionesSeleccionadas.size === 0) return true;
+  return competicionesSeleccionadas.has(nombreCompeticion(p));
+}
+
+function armarFiltroCompeticiones() {
+  const todasLasCompeticiones = new Set();
+  datos.forEach(p => todasLasCompeticiones.add(nombreCompeticion(p)));
+
+  const guardadas = cargarCompeticionesGuardadas();
+  if (guardadas) {
+    // Si apareció una liga/competición nueva que nunca habíamos visto,
+    // la dejamos marcada por defecto (para no esconder partidos sin que
+    // el usuario se dé cuenta de que existe esa opción).
+    todasLasCompeticiones.forEach(c => { if (!guardadas.has(c)) guardadas.add(c); });
+    competicionesSeleccionadas = guardadas;
+  } else {
+    competicionesSeleccionadas = new Set(todasLasCompeticiones);
+  }
+
+  const cont = document.getElementById('filtroCompeticiones');
+  cont.innerHTML = 'Ligas/competiciones: ';
+  [...todasLasCompeticiones].sort().forEach(comp => {
+    const id = 'comp-' + comp.replace(/[^a-zA-Z0-9]/g, '');
+    const marcado = competicionesSeleccionadas.has(comp);
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" id="${id}" ${marcado ? 'checked' : ''}> ${comp}`;
+    label.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) competicionesSeleccionadas.add(comp);
+      else competicionesSeleccionadas.delete(comp);
+      guardarCompeticionesSeleccionadas();
+      if (vistaActual === 'calendario') renderCalendario();
+      else render(vistaActual === 'semana');
+    });
+    cont.appendChild(label);
+  });
+}
+
+
 function llenarSelectsHorario() {
   const desde = document.getElementById('horaDesde');
   const hasta = document.getElementById('horaHasta');
@@ -467,7 +533,7 @@ function render(soloSemana) {
   const cont = document.getElementById('contenido');
   cont.innerHTML = '';
 
-  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma).filter(p => !p.pasado);
+  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma).filter(pasaFiltroCompeticion).filter(p => !p.pasado);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
     lista = lista.filter(p => {
@@ -562,7 +628,7 @@ function renderCalendario() {
   `;
   cont.appendChild(nav);
 
-  const lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma);
+  const lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma).filter(pasaFiltroCompeticion);
   const porFecha = {};
   lista.forEach(p => {
     if (!p.fecha) return;
@@ -628,6 +694,7 @@ fetch('data.json?_=' + Date.now())
   .then(json => {
     datos = json.partidos || [];
     armarFiltroPlataformas();
+    armarFiltroCompeticiones();
     mostrarSemana(); // por defecto muestra la semana, para imprimir rápido
   })
   .catch(e => {
