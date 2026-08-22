@@ -62,11 +62,7 @@ COMPETICIONES = {
     "Premier League": "competicion/premier-league",
     "La Liga": "competicion/la-liga",
     "Europa League": "competicion/europa-league",
-    # OJO: el slug de la liga chilena (probablemente
-    # "competicion/campeonato-itau" o similar, el sitio la llama
-    # "Campeonato Itaú") todavía no está confirmado 100% -> verificar
-    # entrando directo a futbolenvivochile.com antes de activar esta línea.
-    # "Liga de Primera (Chile)": "competicion/campeonato-itau",
+    "Liga de Primera (Chile)": "competicion/primera-division-chile",
 }
 
 # --- Configuración: qué canales tiene el abuelo -----------------------------
@@ -168,6 +164,8 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
             hora = hora_m.group(1) if hora_m else None
 
             competicion = celdas[1].get_text(" ", strip=True)
+            img_comp = celdas[1].find("img")
+            logo_competicion = urljoin(BASE_URL + "/", img_comp["src"]) if img_comp and img_comp.get("src") else None
 
             equipo1 = celdas[2].get_text(" ", strip=True)
             equipo2 = celdas[3].get_text(" ", strip=True)
@@ -193,6 +191,7 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
                 {
                     "fuente": fuente,
                     "competicion": competicion or None,
+                    "competicion_logo": logo_competicion,
                     "fecha": fecha_actual.isoformat(),
                     "hora": hora,
                     "equipos": [equipo1, equipo2],
@@ -244,6 +243,7 @@ def extraer_proximo_partido(soup: BeautifulSoup, fuente: str):
         {
             "fuente": fuente,
             "competicion": None,
+            "competicion_logo": None,
             "fecha": fecha.isoformat(),
             "hora": hora,
             "equipos": [equipo1, equipo2],
@@ -264,6 +264,8 @@ def deduplicar(partidos):
             existente["canales"] = sorted(set(existente["canales"]) | set(p["canales"]))
             if not existente.get("competicion") and p.get("competicion"):
                 existente["competicion"] = p["competicion"]
+            if not existente.get("competicion_logo") and p.get("competicion_logo"):
+                existente["competicion_logo"] = p["competicion_logo"]
             for i in (0, 1):
                 if not existente.get("logos", [None, None])[i] and p.get("logos", [None, None])[i]:
                     existente["logos"][i] = p["logos"][i]
