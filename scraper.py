@@ -40,11 +40,33 @@ EQUIPOS = {
     "Manchester City": {"slug": "equipo/manchester-city", "nombre_filtro": "Manchester City"},
     "FC Barcelona": {"slug": "equipo/fc-barcelona", "nombre_filtro": "Barcelona"},
     "Selección Chilena": {"slug": "equipo/chile", "nombre_filtro": "Chile"},
+
+    # Equipos agregados
+    "Real Madrid": {"slug": "equipo/real-madrid", "nombre_filtro": "Real Madrid"},
+    "Liverpool": {"slug": "equipo/liverpool", "nombre_filtro": "Liverpool"},
+    "Arsenal": {"slug": "equipo/arsenal", "nombre_filtro": "Arsenal"},
+    # Ojo: en este sitio el equipo aparece como "Manchester Utd.", no
+    # "Manchester United" completo, por eso el filtro busca "Manchester Utd".
+    "Manchester United": {"slug": "equipo/manchester-utd", "nombre_filtro": "Manchester Utd"},
+    "Bayern Munich": {"slug": "equipo/bayern-munich", "nombre_filtro": "Bayern"},
+    "Real Betis": {"slug": "equipo/real-betis", "nombre_filtro": "Real Betis"},
+    "Inter de Milan": {"slug": "equipo/inter-milan", "nombre_filtro": "Inter Milan"},
+    "Boca Juniors": {"slug": "equipo/boca-juniors", "nombre_filtro": "Boca Juniors"},
 }
 
 COMPETICIONES = {
     "Champions League": "competicion/liga-campeones",
     "Copa del Rey": "competicion/copa-del-rey",
+
+    # Ligas/competiciones agregadas
+    "Premier League": "competicion/premier-league",
+    "La Liga": "competicion/la-liga",
+    "Europa League": "competicion/europa-league",
+    # OJO: el slug de la liga chilena (probablemente
+    # "competicion/campeonato-itau" o similar, el sitio la llama
+    # "Campeonato Itaú") todavía no está confirmado 100% -> verificar
+    # entrando directo a futbolenvivochile.com antes de activar esta línea.
+    # "Liga de Primera (Chile)": "competicion/campeonato-itau",
 }
 
 # --- Configuración: qué canales tiene el abuelo -----------------------------
@@ -145,6 +167,7 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
             hora_m = re.search(r"\b(\d{1,2}:\d{2})\b", celdas[0].get_text())
             hora = hora_m.group(1) if hora_m else None
 
+            competicion = celdas[1].get_text(" ", strip=True)
             equipo1 = celdas[2].get_text(" ", strip=True)
             equipo2 = celdas[3].get_text(" ", strip=True)
 
@@ -160,6 +183,7 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
             partidos.append(
                 {
                     "fuente": fuente,
+                    "competicion": competicion or None,
                     "fecha": fecha_actual.isoformat(),
                     "hora": hora,
                     "equipos": [equipo1, equipo2],
@@ -209,6 +233,7 @@ def extraer_proximo_partido(soup: BeautifulSoup, fuente: str):
     return [
         {
             "fuente": fuente,
+            "competicion": None,
             "fecha": fecha.isoformat(),
             "hora": hora,
             "equipos": [equipo1, equipo2],
@@ -226,6 +251,8 @@ def deduplicar(partidos):
         else:
             existente = vistos[clave]
             existente["canales"] = sorted(set(existente["canales"]) | set(p["canales"]))
+            if not existente.get("competicion") and p.get("competicion"):
+                existente["competicion"] = p["competicion"]
             if p["fuente"] not in existente["fuente"]:
                 existente["fuente"] += f", {p['fuente']}"
     return list(vistos.values())
