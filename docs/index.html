@@ -77,6 +77,16 @@
   .partido .equipos {
     font-weight: 600;
     font-size: 1.05em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .logo-equipo {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    vertical-align: middle;
   }
   .partido .canales {
     color: var(--gris);
@@ -120,6 +130,55 @@
 
 <script>
 let datos = [];
+
+// Mapa de nombre de equipo (tal como aparece en data.json) -> URL del escudo.
+// Si el scraper usa nombres distintos (ej. "Man City" en vez de "Manchester City"),
+// agrega esa variante como otra clave apuntando al mismo link.
+const logosEquipos = {
+  "Colo Colo": "https://upload.wikimedia.org/wikipedia/en/9/9c/Colo-Colo_logo.png",
+
+  "Barcelona": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.png",
+  "FC Barcelona": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.png",
+
+  "Manchester City": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+  "Man City": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+
+  "Real Madrid": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+
+  "Liverpool": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+  "Liverpool FC": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+
+  "Arsenal": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+  "Arsenal FC": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+
+  "Manchester United": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+  "Man United": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+
+  "Bayern Munich": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+  "Bayern München": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+  "FC Bayern Múnich": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+
+  "Betis": "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg",
+  "Real Betis": "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg",
+
+  "Inter de Milan": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+  "Inter Milan": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+  "Inter de Milán": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+  "Inter": "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
+
+  "Boca Juniors": "https://upload.wikimedia.org/wikipedia/commons/0/0c/CABJ70.png"
+};
+
+function obtenerLogo(nombreEquipo) {
+  return logosEquipos[nombreEquipo] || null;
+}
+
+// Arma el HTML de un equipo: escudo (si existe) + nombre
+function equipoHTML(nombre) {
+  const logo = obtenerLogo(nombre);
+  const img = logo ? `<img src="${logo}" alt="${nombre}" class="logo-equipo" loading="lazy" onerror="this.style.display='none'">` : '';
+  return `<span style="display:inline-flex; align-items:center; gap:4px;">${img}${nombre}</span>`;
+}
 
 function diaSemanaTexto(fechaStr) {
   const dias = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
@@ -170,9 +229,10 @@ function render(soloSemana) {
     porDia[fecha].forEach(p => {
       const div = document.createElement('div');
       div.className = 'partido';
+      const equiposHTML = p.equipos.map(equipoHTML).join(' <span style="font-weight:400;">vs</span> ');
       div.innerHTML = `
-        <div><span class="hora">${p.hora || '--:--'}</span>
-        <span class="equipos">${p.equipos.join(' vs ')}</span></div>
+        <div><span class="hora">${p.hora || '--:--'}</span></div>
+        <div class="equipos">${equiposHTML}</div>
         <div class="canales">📺 ${p.canales_abuelo.join(', ')}</div>
       `;
       divDia.appendChild(div);
