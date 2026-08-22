@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-22T02:35:57",
+  "generado": "2026-08-22T02:37:58",
   "partidos": [
     {
       "fuente": "Manchester City",
@@ -35,41 +35,9 @@
       ]
     },
     {
-      "fuente": "Manchester City",
-      "fecha": "2026-08-23",
-      "hora": "15:00",
-      "equipos": [
-        "Manchester City",
-        "Bournemouth"
-      ],
-      "canales": [
-        "Disney+ Premium"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium"
-      ]
-    },
-    {
       "fuente": "FC Barcelona",
       "fecha": "2026-08-23",
       "hora": "15:30",
-      "equipos": [
-        "Elche",
-        "FC Barcelona"
-      ],
-      "canales": [
-        "Disney+ Premium",
-        "ESPN"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN"
-      ]
-    },
-    {
-      "fuente": "FC Barcelona",
-      "fecha": "2026-08-23",
-      "hora": "21:30",
       "equipos": [
         "Elche",
         "FC Barcelona"
@@ -115,23 +83,6 @@
       "canales_abuelo": [
         "ESPN 5",
         "ESPN Premium"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-25",
-      "hora": "18:45",
-      "equipos": [
-        "Sabah FK",
-        "Hapoel Beer Sheva"
-      ],
-      "canales": [
-        "Disney+ Premium",
-        "ESPN 3"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN 3"
       ]
     },
     {
