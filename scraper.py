@@ -168,8 +168,17 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
             hora = hora_m.group(1) if hora_m else None
 
             competicion = celdas[1].get_text(" ", strip=True)
+
             equipo1 = celdas[2].get_text(" ", strip=True)
             equipo2 = celdas[3].get_text(" ", strip=True)
+
+            # Escudo de cada equipo: la propia página ya trae una <img> con
+            # el logo dentro de la celda del equipo. Lo tomamos directo de
+            # ahí (URL absoluta) para no tener que mantener logos a mano.
+            img1 = celdas[2].find("img")
+            img2 = celdas[3].find("img")
+            logo1 = urljoin(BASE_URL + "/", img1["src"]) if img1 and img1.get("src") else None
+            logo2 = urljoin(BASE_URL + "/", img2["src"]) if img2 and img2.get("src") else None
 
             canal_links = celdas[4].find_all("a", href=re.compile(r"/canal/"))
             canales = sorted(set(a.get_text(strip=True) for a in canal_links))
@@ -187,6 +196,7 @@ def extraer_de_tablas(soup: BeautifulSoup, fuente: str):
                     "fecha": fecha_actual.isoformat(),
                     "hora": hora,
                     "equipos": [equipo1, equipo2],
+                    "logos": [logo1, logo2],
                     "canales": canales,
                 }
             )
@@ -237,6 +247,7 @@ def extraer_proximo_partido(soup: BeautifulSoup, fuente: str):
             "fecha": fecha.isoformat(),
             "hora": hora,
             "equipos": [equipo1, equipo2],
+            "logos": [None, None],
             "canales": canales,
         }
     ]
@@ -253,6 +264,9 @@ def deduplicar(partidos):
             existente["canales"] = sorted(set(existente["canales"]) | set(p["canales"]))
             if not existente.get("competicion") and p.get("competicion"):
                 existente["competicion"] = p["competicion"]
+            for i in (0, 1):
+                if not existente.get("logos", [None, None])[i] and p.get("logos", [None, None])[i]:
+                    existente["logos"][i] = p["logos"][i]
             if p["fuente"] not in existente["fuente"]:
                 existente["fuente"] += f", {p['fuente']}"
     return list(vistos.values())
