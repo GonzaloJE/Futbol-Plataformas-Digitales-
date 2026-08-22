@@ -75,6 +75,30 @@
     color: #333;
   }
 
+  .filtro-plataformas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+    font-size: 0.85em;
+    color: var(--gris);
+  }
+  .filtro-plataformas label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: white;
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    padding: 3px 10px;
+    cursor: pointer;
+  }
+  .filtro-plataformas input {
+    cursor: pointer;
+  }
+
   /* Encabezado de día: rediseñado, ya no es un bloque azul sólido */
   .dia {
     margin-bottom: 24px;
@@ -216,7 +240,7 @@
 
   @media print {
     body { background: white; max-width: 100%; }
-    .botones, .filtro-horario { display: none; }
+    .botones, .filtro-horario, .filtro-plataformas { display: none; }
     .cal-nav button { display: none; }
     .dia h2 { border-bottom-color: #000; color: #000; }
     .partido { border-left-color: #000; break-inside: avoid; }
@@ -247,6 +271,8 @@
   <button onclick="aplicarFiltroHorario()">Aplicar</button>
   <button onclick="limpiarFiltroHorario()">Quitar filtro</button>
 </div>
+
+<div class="filtro-plataformas" id="filtroPlataformas"></div>
 
 <div id="contenido">Cargando...</div>
 
@@ -338,6 +364,55 @@ function pasaFiltroHorario(p) {
   return true;
 }
 
+// ===== Filtro de plataformas (qué apps tiene el abuelo activas) =====
+let plataformasSeleccionadas = null; // Set<string>, se llena al cargar los datos
+
+function cargarPlataformasGuardadas() {
+  try {
+    const guardado = localStorage.getItem('plataformasSeleccionadas');
+    return guardado ? new Set(JSON.parse(guardado)) : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function guardarPlataformasSeleccionadas() {
+  try {
+    localStorage.setItem('plataformasSeleccionadas', JSON.stringify([...plataformasSeleccionadas]));
+  } catch (e) { /* si falla, no pasa nada, solo no persiste */ }
+}
+
+function pasaFiltroPlataforma(p) {
+  if (!plataformasSeleccionadas || plataformasSeleccionadas.size === 0) return true;
+  return (p.canales_abuelo || []).some(c => plataformasSeleccionadas.has(c));
+}
+
+function armarFiltroPlataformas() {
+  const todasLasPlataformas = new Set();
+  datos.forEach(p => (p.canales_abuelo || []).forEach(c => todasLasPlataformas.add(c)));
+
+  const guardadas = cargarPlataformasGuardadas();
+  // Si no hay nada guardado todavía, partimos con todas marcadas
+  plataformasSeleccionadas = guardadas || new Set(todasLasPlataformas);
+
+  const cont = document.getElementById('filtroPlataformas');
+  cont.innerHTML = 'Mis plataformas: ';
+  [...todasLasPlataformas].sort().forEach(canal => {
+    const id = 'plat-' + canal.replace(/[^a-zA-Z0-9]/g, '');
+    const marcado = plataformasSeleccionadas.has(canal);
+    const label = document.createElement('label');
+    label.innerHTML = `<input type="checkbox" id="${id}" ${marcado ? 'checked' : ''}> ${canal}`;
+    label.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) plataformasSeleccionadas.add(canal);
+      else plataformasSeleccionadas.delete(canal);
+      guardarPlataformasSeleccionadas();
+      if (vistaActual === 'calendario') renderCalendario();
+      else render(vistaActual === 'semana');
+    });
+    cont.appendChild(label);
+  });
+}
+
 function llenarSelectsHorario() {
   const desde = document.getElementById('horaDesde');
   const hasta = document.getElementById('horaHasta');
@@ -375,7 +450,7 @@ function render(soloSemana) {
   const cont = document.getElementById('contenido');
   cont.innerHTML = '';
 
-  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario);
+  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
     lista = lista.filter(p => {
@@ -467,7 +542,7 @@ function renderCalendario() {
   `;
   cont.appendChild(nav);
 
-  const lista = quitarDuplicados(datos).filter(pasaFiltroHorario);
+  const lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma);
   const porFecha = {};
   lista.forEach(p => {
     if (!p.fecha) return;
@@ -528,6 +603,7 @@ fetch('data.json?_=' + Date.now())
   .then(r => r.json())
   .then(json => {
     datos = json.partidos || [];
+    armarFiltroPlataformas();
     mostrarSemana(); // por defecto muestra la semana, para imprimir rápido
   })
   .catch(e => {
