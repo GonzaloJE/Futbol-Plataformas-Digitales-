@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-22T03:40:23",
+  "generado": "2026-08-22T03:42:13",
   "partidos": [
     {
       "fuente": "Manchester City",
@@ -67,41 +67,6 @@
       ]
     },
     {
-      "fuente": "Colo Colo",
-      "fecha": "2026-08-23",
-      "hora": "21:00",
-      "equipos": [
-        "U de Chile",
-        "Colo Colo"
-      ],
-      "canales": [
-        "TNT Sports Premium HD",
-        "TNT Sports Premium",
-        "HBO MAX"
-      ],
-      "canales_abuelo": [
-        "TNT Sports Premium HD",
-        "TNT Sports Premium"
-      ]
-    },
-    {
-      "fuente": "FC Barcelona",
-      "fecha": "2026-08-23",
-      "hora": "21:30",
-      "equipos": [
-        "Elche",
-        "FC Barcelona"
-      ],
-      "canales": [
-        "Disney+ Premium",
-        "ESPN"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN"
-      ]
-    },
-    {
       "fuente": "Champions League",
       "fecha": "2026-08-25",
       "hora": "12:45",
@@ -133,23 +98,6 @@
       "canales_abuelo": [
         "ESPN 5",
         "ESPN Premium"
-      ]
-    },
-    {
-      "fuente": "Champions League",
-      "fecha": "2026-08-25",
-      "hora": "18:45",
-      "equipos": [
-        "Sabah FK",
-        "Hapoel Beer Sheva"
-      ],
-      "canales": [
-        "Disney+ Premium",
-        "ESPN 3"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium",
-        "ESPN 3"
       ]
     },
     {
