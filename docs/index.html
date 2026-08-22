@@ -243,6 +243,9 @@
     vertical-align: middle;
     margin-right: 2px;
   }
+  .cal-nota-pasado {
+    opacity: 0.5;
+  }
 
   @media print {
     body { background: white; max-width: 100%; }
@@ -368,9 +371,14 @@ function pasaFiltroHorario(p) {
   if (filtroHoraDesde === null && filtroHoraHasta === null) return true;
   const mins = horaAMinutos(p.hora);
   if (mins === null) return true; // sin hora conocida, no lo ocultamos
-  if (filtroHoraDesde !== null && mins < filtroHoraDesde) return false;
-  if (filtroHoraHasta !== null && mins > filtroHoraHasta) return false;
-  return true;
+  const desde = filtroHoraDesde ?? 0;
+  const hasta = filtroHoraHasta ?? 24 * 60 - 1;
+  if (desde <= hasta) {
+    // Rango normal, ej: 14:00 a 22:00
+    return mins >= desde && mins <= hasta;
+  }
+  // Rango que cruza medianoche, ej: 14:00 a 02:00 (14,15,...,23,00,01,02)
+  return mins >= desde || mins <= hasta;
 }
 
 // ===== Filtro de plataformas (qué apps tiene el abuelo activas) =====
@@ -459,7 +467,7 @@ function render(soloSemana) {
   const cont = document.getElementById('contenido');
   cont.innerHTML = '';
 
-  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma);
+  let lista = quitarDuplicados(datos).filter(pasaFiltroHorario).filter(pasaFiltroPlataforma).filter(p => !p.pasado);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
     lista = lista.filter(p => {
@@ -589,7 +597,11 @@ function renderCalendario() {
       const logoDos = logos[1] || obtenerLogoRespaldo(p.equipos[1]);
       const logoMostrar = logoUno || logoDos;
       const img = logoMostrar ? `<img src="${logoMostrar}" onerror="this.style.display='none'">` : '';
-      html += `<div class="cal-nota">${img}<b>${p.hora || ''}</b> ${p.equipos.join(' vs ')}</div>`;
+      const imgComp = p.competicion_logo
+        ? `<img src="${p.competicion_logo}" title="${p.competicion || ''}" alt="${p.competicion || ''}" onerror="this.style.display='none'">`
+        : '';
+      const claseExtra = p.pasado ? ' cal-nota-pasado' : '';
+      html += `<div class="cal-nota${claseExtra}">${imgComp}${img}<b>${p.hora || ''}</b> ${p.equipos.join(' vs ')}</div>`;
     });
     celda.innerHTML = html;
     grid.appendChild(celda);
