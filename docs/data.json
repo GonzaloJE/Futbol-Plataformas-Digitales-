@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-22T03:36:41",
+  "generado": "2026-08-22T03:40:23",
   "partidos": [
     {
       "fuente": "Manchester City",
@@ -53,6 +53,41 @@
       "fuente": "FC Barcelona",
       "fecha": "2026-08-23",
       "hora": "15:30",
+      "equipos": [
+        "Elche",
+        "FC Barcelona"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
+    {
+      "fuente": "Colo Colo",
+      "fecha": "2026-08-23",
+      "hora": "21:00",
+      "equipos": [
+        "U de Chile",
+        "Colo Colo"
+      ],
+      "canales": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium",
+        "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": "2026-08-23",
+      "hora": "21:30",
       "equipos": [
         "Elche",
         "FC Barcelona"
