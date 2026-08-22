@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-22T16:37:45",
+  "generado": "2026-08-22T16:44:23",
   "partidos": [
     {
       "fuente": "Manchester United, Premier League",
@@ -37,8 +37,6 @@
         "https://static.futbolenlatv.com/img/32/20121218093043_sevilla.webp"
       ],
       "canales": [
-        "Amazon Prime Video (Ver en vivo)",
-        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Paramount+"
@@ -67,6 +65,28 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 5"
+      ]
+    },
+    {
+      "fuente": "Manchester United, Premier League",
+      "competicion": null,
+      "fecha": "2026-08-22",
+      "hora": "13:30",
+      "equipos": [
+        "Hull City",
+        "Manchester Utd."
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ]
     },
     {
@@ -116,13 +136,37 @@
       ]
     },
     {
-      "fuente": "Inter de Milan",
+      "fuente": "La Liga",
       "competicion": null,
       "fecha": "2026-08-22",
-      "hora": "18:30",
+      "hora": "17:00",
       "equipos": [
-        "Inter Milan",
-        "Monza"
+        "Athletic Club",
+        "Sevilla FC"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Paramount+",
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ]
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": null,
+      "fecha": "2026-08-22",
+      "hora": "20:30",
+      "equipos": [
+        "Borussia Dortmund",
+        "FC Bayern"
       ],
       "logos": [
         null,
@@ -130,11 +174,11 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN"
       ]
     },
     {
@@ -243,6 +287,26 @@
       ]
     },
     {
+      "fuente": "Manchester City",
+      "competicion": null,
+      "fecha": "2026-08-23",
+      "hora": "15:00",
+      "equipos": [
+        "Manchester City",
+        "Bournemouth"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ]
+    },
+    {
       "fuente": "FC Barcelona",
       "competicion": "La Liga EA Sports",
       "fecha": "2026-08-23",
@@ -265,26 +329,6 @@
       ]
     },
     {
-      "fuente": "Liverpool",
-      "competicion": null,
-      "fecha": "2026-08-23",
-      "hora": "17:30",
-      "equipos": [
-        "Newcastle",
-        "Liverpool"
-      ],
-      "logos": [
-        null,
-        null
-      ],
-      "canales": [
-        "Disney+ Premium"
-      ],
-      "canales_abuelo": [
-        "Disney+ Premium"
-      ]
-    },
-    {
       "fuente": "Boca Juniors",
       "competicion": "Primera División Argentina Torneo Clausura",
       "fecha": "2026-08-23",
@@ -299,8 +343,7 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN",
-        "Fanatiz (Míralo en vivo)"
+        "ESPN"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
@@ -321,6 +364,29 @@
         null
       ],
       "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "fecha": "2026-08-24",
+      "hora": "02:30",
+      "equipos": [
+        "Racing Avellaneda",
+        "Boca Juniors"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Fanatiz (Míralo en vivo)",
         "Disney+ Premium",
         "ESPN"
       ],
@@ -393,6 +459,50 @@
       "canales_abuelo": [
         "ESPN 5",
         "ESPN Premium"
+      ]
+    },
+    {
+      "fuente": "Champions League",
+      "competicion": null,
+      "fecha": "2026-08-25",
+      "hora": "18:45",
+      "equipos": [
+        "Sabah FK",
+        "Hapoel Beer Sheva"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ]
+    },
+    {
+      "fuente": "Real Betis",
+      "competicion": null,
+      "fecha": "2026-08-25",
+      "hora": "21:00",
+      "equipos": [
+        "Valencia CF",
+        "Real Betis"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ]
     },
     {
