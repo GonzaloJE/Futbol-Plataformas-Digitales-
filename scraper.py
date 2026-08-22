@@ -274,6 +274,56 @@ def deduplicar(partidos):
     return list(vistos.values())
 
 
+def cargar_historial_previo(ruta="docs/data.json"):
+    """Carga lo que ya se había guardado en corridas anteriores, para ir
+    ACUMULANDO en vez de pisar los datos cada día. La web fuente solo
+    muestra 1-2 semanas hacia adelante por partido (tiene un botón "Más
+    días" que requiere JavaScript, que este scraper no ejecuta), así que
+    sin esto nunca se podría ver más allá de esa ventana ni tampoco
+    conservar un historial de lo que ya pasó."""
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        anteriores = data.get("partidos", [])
+        print(f"Historial previo cargado: {len(anteriores)} partidos")
+        return anteriores
+    except FileNotFoundError:
+        print("No había historial previo (primera corrida) -> se empieza de cero")
+        return []
+    except Exception as e:
+        print(f"ERROR leyendo historial previo, se ignora y se parte de cero: {e}")
+        return []
+
+
+def procesar_pagina_general(url):
+    """Descarga la página principal (todos los partidos del día/mañana, de
+    cualquier equipo y competición) y devuelve los que se transmiten por
+    algún canal del abuelo, etiquetados con el nombre de la competición
+    (en vez de un equipo) para que se sepa qué es cada uno."""
+    print(f"Descargando partidos generales -> {url}")
+    try:
+        soup = fetch(url)
+    except Exception as e:
+        print(f"  ERROR al descargar partidos generales: {e}")
+        return []
+
+    try:
+        partidos = extraer_de_tablas(soup, fuente="Otros partidos")
+    except Exception:
+        print("  ERROR extrayendo tablas de partidos generales:")
+        traceback.print_exc()
+        return []
+
+    # Usamos el nombre de la competición como "fuente" para que se vea, por
+    # ejemplo, "La Liga" o "Premier League" en vez de una etiqueta genérica.
+    for p in partidos:
+        if p.get("competicion"):
+            p["fuente"] = p["competicion"]
+
+    print(f"  {len(partidos)} partidos generales encontrados (antes de filtrar por canal)")
+    return partidos
+
+
 def procesar_pagina(nombre, url, es_equipo, nombre_filtro=None):
     """Descarga y extrae los partidos de una página. Nunca lanza excepción:
     si algo falla, imprime el error y devuelve lista vacía, para que el
@@ -309,7 +359,7 @@ def procesar_pagina(nombre, url, es_equipo, nombre_filtro=None):
 
 
 def main():
-    todos = []
+    todos = cargar_historial_previo()
     hoy = date.today()
 
     for nombre, cfg in EQUIPOS.items():
@@ -322,20 +372,31 @@ def main():
         todos += procesar_pagina(nombre, url, es_equipo=False)
         time.sleep(1.5)
 
+    # Partidos de CUALQUIER equipo/competición, mientras salgan en un canal
+    # que el abuelo tiene (así ve más fútbol, no solo el de sus equipos).
+    todos += procesar_pagina_general(BASE_URL + "/")
+
     todos = deduplicar(todos)
 
+    # A diferencia de antes, ya NO se descartan los partidos que ya pasaron:
+    # se guardan todos para ir armando un historial real con el correr de
+    # los días. Lo único que se descarta es lo que no tiene canal del
+    # abuelo o no tiene una fecha válida.
     filtrados = []
+    partidos_futuros = 0
     for p in todos:
         try:
             fecha_partido = date.fromisoformat(p["fecha"])
         except Exception:
             continue
-        if fecha_partido < hoy:
-            continue
         canales_ok = [c for c in p["canales"] if canal_disponible(c)]
-        if canales_ok:
-            p["canales_abuelo"] = canales_ok
-            filtrados.append(p)
+        if not canales_ok:
+            continue
+        p["canales_abuelo"] = canales_ok
+        p["pasado"] = fecha_partido < hoy
+        if not p["pasado"]:
+            partidos_futuros += 1
+        filtrados.append(p)
 
     filtrados.sort(key=lambda p: (p["fecha"], p["hora"] or "99:99"))
 
@@ -347,7 +408,8 @@ def main():
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=2)
 
-    print(f"\nTotal partidos filtrados para el abuelo: {len(filtrados)}")
+    print(f"\nTotal en el historial acumulado: {len(filtrados)} "
+          f"({partidos_futuros} por venir, {len(filtrados) - partidos_futuros} ya pasados)")
     print("Guardado en docs/data.json")
 
 
