@@ -1,6 +1,88 @@
 {
-  "generado": "2026-08-21T14:07:03",
+  "generado": "2026-08-22T02:35:57",
   "partidos": [
+    {
+      "fuente": "Manchester City",
+      "fecha": "2026-08-23",
+      "hora": "09:00",
+      "equipos": [
+        "Manchester City",
+        "Bournemouth"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ]
+    },
+    {
+      "fuente": "Colo Colo",
+      "fecha": "2026-08-23",
+      "hora": "15:00",
+      "equipos": [
+        "U de Chile",
+        "Colo Colo"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ]
+    },
+    {
+      "fuente": "Manchester City",
+      "fecha": "2026-08-23",
+      "hora": "15:00",
+      "equipos": [
+        "Manchester City",
+        "Bournemouth"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": "2026-08-23",
+      "hora": "15:30",
+      "equipos": [
+        "Elche",
+        "FC Barcelona"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": "2026-08-23",
+      "hora": "21:30",
+      "equipos": [
+        "Elche",
+        "FC Barcelona"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ]
+    },
     {
       "fuente": "Champions League",
       "fecha": "2026-08-25",
@@ -37,6 +119,23 @@
     },
     {
       "fuente": "Champions League",
+      "fecha": "2026-08-25",
+      "hora": "18:45",
+      "equipos": [
+        "Sabah FK",
+        "Hapoel Beer Sheva"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ]
+    },
+    {
+      "fuente": "Champions League",
       "fecha": "2026-08-26",
       "hora": "15:00",
       "equipos": [
@@ -63,6 +162,23 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ]
+    },
+    {
+      "fuente": "FC Barcelona",
+      "fecha": "2026-08-27",
+      "hora": "15:00",
+      "equipos": [
+        "FC Barcelona",
+        "Athletic Club"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ]
     }
   ]
