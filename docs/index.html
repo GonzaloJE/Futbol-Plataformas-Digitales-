@@ -197,11 +197,25 @@ function inicioFinSemana() {
   return [hoy, fin];
 }
 
+// Si el data.json trae el mismo partido repetido (mismos equipos + misma fecha),
+// nos quedamos con uno solo, prefiriendo el que tenga más canales listados.
+function quitarDuplicados(lista) {
+  const vistos = new Map();
+  lista.forEach(p => {
+    const clave = (p.fecha || '') + '|' + [...p.equipos].sort().join('-');
+    const existente = vistos.get(clave);
+    if (!existente || (p.canales_abuelo || []).length > (existente.canales_abuelo || []).length) {
+      vistos.set(clave, p);
+    }
+  });
+  return Array.from(vistos.values());
+}
+
 function render(soloSemana) {
   const cont = document.getElementById('contenido');
   cont.innerHTML = '';
 
-  let lista = datos;
+  let lista = quitarDuplicados(datos);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
     lista = datos.filter(p => {
