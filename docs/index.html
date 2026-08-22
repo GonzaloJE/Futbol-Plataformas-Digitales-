@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
 <title>Partidos del Abuelo</title>
 <style>
   :root {
@@ -122,54 +122,54 @@
 <div class="botones">
   <button onclick="mostrarTodo()">Ver todos</button>
   <button onclick="mostrarSemana()">Ver solo esta semana</button>
-  <button class="rojo" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+  <button class="rojo"onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
 </div>
 
 <div id="contenido">Cargando...</div>
-<div class="actualizado" id="actualizado"></div>
+<div class="actualizado"id="actualizado"></div>
 
 <script>
 let datos = [];
 
 // Mapa de nombre de equipo (tal como aparece en data.json) -> URL del escudo.
-// Si el scraper usa nombres distintos (ej. "Man City" en vez de "Manchester City"),
+// Si el scraper usa nombres distintos (ej. "Man City"en vez de "Manchester City"),
 // agrega esa variante como otra clave apuntando al mismo link.
-// Los escudos se guardan DENTRO del repo (docs/logos/) en vez de enlazarlos
+// Los escudos se guardan DENTRO del repo (docs/ ) en vez de enlazarlos
 // desde Wikipedia u otro sitio externo, para que nunca se rompan ni dependan
-// de que un tercero mantenga el link vivo. Sube cada imagen a docs/logos/
+// de que un tercero mantenga el link vivo. Sube cada imagen a docs/ 
 // con el nombre de archivo indicado en cada línea.
 const logosEquipos = {
-  "Colo Colo": "logos/colo-colo.webp",
+  "Colo Colo": "colo-colo.webp",
 
-  "Barcelona": "logos/barcelona.webp",
-  "FC Barcelona": "logos/barcelona.webp",
+  "Barcelona": "barcelona.webp",
+  "FC Barcelona": "barcelona.webp",
 
-  "Manchester City": "logos/man-city.webp",
-  "Man City": "logos/man-city.webp",
+  "Manchester City": "man-city.webp",
+  "Man City": "man-city.webp",
 
-  "Real Madrid": "logos/real-madrid.webp",
+  "Real Madrid": "real-madrid.webp",
 
-  "Liverpool": "logos/liverpool.webp",
-  "Liverpool FC": "logos/liverpool.webp",
+  "Liverpool": "liverpool.webp",
+  "Liverpool FC": "liverpool.webp",
 
-  "Arsenal": "logos/arsenal.webp",
-  "Arsenal FC": "logos/arsenal.webp",
+  "Arsenal": "arsenal.webp",
+  "Arsenal FC": "arsenal.webp",
 
-  "Manchester United": "logos/man-united.webp",
-  "Man United": "logos/man-united.webp",
+  "Manchester United": "man-united.webp",
+  "Man United": "man-united.webp",
 
-  "Bayern Munich": "logos/bayern.webp",
-  "Bayern München": "logos/bayern.webp",
-  "FC Bayern Múnich": "logos/bayern.webp",
+  "Bayern Munich": "bayern.webp",
+  "Bayern München": "bayern.webp",
+  "FC Bayern Múnich": "bayern.webp",
 
-  "Betis": "logos/betis.webp",
-  "Real Betis": "logos/betis.webp",
+  "Betis": "betis.webp",
+  "Real Betis": "betis.webp",
 
-  "Inter de Milan": "logos/inter.webp",
-  "Inter Milan": "logos/inter.webp",
-  "Inter de Milán": "logos/inter.webp",
+  "Inter de Milan": "inter.webp",
+  "Inter Milan": "inter.webp",
+  "Inter de Milán": "inter.webp",
 
-  "Boca Juniors": "logos/boca.webp"
+  "Boca Juniors": "boca.webp"
 };
 
 function obtenerLogo(nombreEquipo) {
@@ -179,7 +179,7 @@ function obtenerLogo(nombreEquipo) {
 // Arma el HTML de un equipo: escudo (si existe) + nombre
 function equipoHTML(nombre) {
   const logo = obtenerLogo(nombre);
-  const img = logo ? `<img src="${logo}" alt="${nombre}" class="logo-equipo" loading="lazy" onerror="this.style.display='none'">` : '';
+  const img = logo ? `<img src="${logo}"alt="${nombre}"class="logo-equipo"loading="lazy"onerror="this.style.display='none'">` : '';
   return `<span style="display:inline-flex; align-items:center; gap:4px;">${img}${nombre}</span>`;
 }
 
