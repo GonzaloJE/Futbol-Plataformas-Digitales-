@@ -139,37 +139,37 @@ let datos = [];
 // de que un tercero mantenga el link vivo. Sube cada imagen a docs/ 
 // con el nombre de archivo indicado en cada línea.
 const logosEquipos = {
-  "Colo Colo": "colo-colo.webp",
+  "Colo Colo": "logo/colo-colo.webp",
 
-  "Barcelona": "barcelona.webp",
-  "FC Barcelona": "barcelona.webp",
+  "Barcelona": "logo/barcelona.webp",
+  "FC Barcelona": "logo/barcelona.webp",
 
-  "Manchester City": "man-city.webp",
-  "Man City": "man-city.webp",
+  "Manchester City": "logo/man-city.webp",
+  "Man City": "logo/man-city.webp",
 
-  "Real Madrid": "real-madrid.webp",
+  "Real Madrid": "logo/real-madrid.webp",
 
-  "Liverpool": "liverpool.webp",
-  "Liverpool FC": "liverpool.webp",
+  "Liverpool": "logo/liverpool.webp",
+  "Liverpool FC": "logo/liverpool.webp",
 
-  "Arsenal": "arsenal.webp",
-  "Arsenal FC": "arsenal.webp",
+  "Arsenal": "logo/arsenal.webp",
+  "Arsenal FC": "logo/arsenal.webp",
 
-  "Manchester United": "man-united.webp",
-  "Man United": "man-united.webp",
+  "Manchester United": "logo/man-united.webp",
+  "Man United": "logo/man-united.webp",
 
-  "Bayern Munich": "bayern.webp",
-  "Bayern München": "bayern.webp",
-  "FC Bayern Múnich": "bayern.webp",
+  "Bayern Munich": "logo/bayern.webp",
+  "Bayern München": "logo/bayern.webp",
+  "FC Bayern Múnich": "logo/bayern.webp",
 
-  "Betis": "betis.webp",
-  "Real Betis": "betis.webp",
+  "Betis": "logo/betis.webp",
+  "Real Betis": "logo/betis.webp",
 
-  "Inter de Milan": "inter.webp",
-  "Inter Milan": "inter.webp",
-  "Inter de Milán": "inter.webp",
+  "Inter de Milan": "logo/inter.webp",
+  "Inter Milan": "logo/inter.webp",
+  "Inter de Milán": "logo/inter.webp",
 
-  "Boca Juniors": "boca.webp"
+  "Boca Juniors": "logo/boca.webp"
 };
 
 function obtenerLogo(nombreEquipo) {
@@ -218,7 +218,7 @@ function render(soloSemana) {
   let lista = quitarDuplicados(datos);
   if (soloSemana) {
     const [inicio, fin] = inicioFinSemana();
-    lista = datos.filter(p => {
+    lista = lista.filter(p => {
       if (!p.fecha) return false;
       const f = new Date(p.fecha + "T12:00:00");
       return f >= inicio && f <= fin;
