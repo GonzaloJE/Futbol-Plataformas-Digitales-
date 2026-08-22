@@ -139,6 +139,12 @@
     font-size: 0.95em;
     text-align: center;
   }
+  .logo-competicion {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-top: 2px;
+  }
   .partido .equipos {
     display: flex;
     align-items: center;
@@ -304,6 +310,9 @@ const logosRespaldo = {
   "Inter de Milan": "logo/inter.webp",
   "Inter Milan": "logo/inter.webp",
   "Boca Juniors": "logo/boca.webp"
+  // Nota: los equipos chilenos (U de Chile, Católica, Unión Española, etc.)
+  // no necesitan entrada acá -> como ahora se sigue la LIGA completa,
+  // el propio scraper trae el escudo automático de cada uno desde la tabla.
 };
 
 function obtenerLogoRespaldo(nombreEquipo) {
@@ -492,7 +501,10 @@ function render(soloSemana) {
       const eq1 = equipoHTML(p.equipos[0], logos[0]);
       const eq2 = equipoHTML(p.equipos[1], logos[1]);
       div.innerHTML = `
-        <div class="hora">${p.hora || '--:--'}</div>
+        <div class="hora">
+          ${p.hora || '--:--'}
+          ${p.competicion_logo ? `<br><img src="${p.competicion_logo}" class="logo-competicion" alt="${p.competicion || ''}" title="${p.competicion || ''}" onerror="this.style.display='none'">` : ''}
+        </div>
         <div class="equipos">${eq1}<span class="vs">vs</span>${eq2}</div>
         <div class="canales">📺 ${p.canales_abuelo.join(', ')}</div>
       `;
