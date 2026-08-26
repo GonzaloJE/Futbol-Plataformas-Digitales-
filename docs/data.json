@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-25T14:29:18",
+  "generado": "2026-08-26T14:27:43",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -1294,7 +1294,7 @@
         "TNT Sports Premium HD",
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Champions League, Playoffs",
@@ -1318,7 +1318,7 @@
         "Disney+ Premium",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Real Betis, La Liga, Otros partidos",
@@ -1342,7 +1342,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Champions League, Playoffs",
@@ -1366,7 +1366,7 @@
         "ESPN 5",
         "ESPN Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Champions League",
@@ -1390,7 +1390,7 @@
         "Disney+ Premium",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -1414,7 +1414,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Real Betis, La Liga",
@@ -1438,10 +1438,32 @@
         "Disney+ Premium",
         "ESPN"
       ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-26",
+      "hora": "14:45",
+      "equipos": [
+        "Tottenham",
+        "Charlton Athletic"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20200413194326-tottenham.webp",
+        "https://static.futbolenlatv.com/img/32/20130918093714-charlton.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
       "pasado": false
     },
     {
-      "fuente": "Real Madrid",
+      "fuente": "Real Madrid, La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-08-26",
@@ -1509,6 +1531,54 @@
       "pasado": false
     },
     {
+      "fuente": "Champions League, Playoffs",
+      "competicion": "Champions League Playoffs",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
+      "fecha": "2026-08-26",
+      "hora": "15:00",
+      "equipos": [
+        "O. Lyonnais",
+        "Fenerbahçe"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121221104814_lyon.webp",
+        "https://static.futbolenlatv.com/img/32/20121221105219_fenerbahçe.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Champions League, Playoffs",
+      "competicion": "Champions League Playoffs",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
+      "fecha": "2026-08-26",
+      "hora": "15:00",
+      "equipos": [
+        "NK Celje",
+        "Slovan Bratislava"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20240923181008-nk-celje.webp",
+        "https://static.futbolenlatv.com/img/32/20140720101911-slovan-bratislava.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liga de Primera (Chile), Otros partidos",
       "competicion": "Liga de Primera Mercado Libre",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
@@ -1556,7 +1626,56 @@
       "pasado": false
     },
     {
-      "fuente": "Real Madrid",
+      "fuente": "Colo Colo",
+      "competicion": "Copa Chile",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-08-26",
+      "hora": "20:30",
+      "equipos": [
+        "Colo Colo",
+        "Unión Española"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp",
+        "https://static.futbolenlatv.com/img/32/20130404093950_union-espanola.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-26",
+      "hora": "20:30",
+      "equipos": [
+        "Palmeiras",
+        "Santos"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130207042018_palmeiras.webp",
+        "https://static.futbolenlatv.com/img/32/20180213074034-santos.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Madrid, La Liga",
       "competicion": null,
       "competicion_logo": null,
       "fecha": "2026-08-26",
@@ -1580,6 +1699,32 @@
       "pasado": false
     },
     {
+      "fuente": "Champions League",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-26",
+      "hora": "21:00",
+      "equipos": [
+        "O. Lyonnais",
+        "Fenerbahçe"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liga de Primera (Chile)",
       "competicion": null,
       "competicion_logo": null,
@@ -1597,6 +1742,31 @@
         "TNT Sports Premium HD",
         "TNT Sports Premium",
         "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-27",
+      "hora": "02:30",
+      "equipos": [
+        "Colo Colo",
+        "Unión Española"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
       ],
       "canales_abuelo": [
         "TNT Sports Premium HD",
@@ -1629,7 +1799,7 @@
       "pasado": false
     },
     {
-      "fuente": "FC Barcelona, La Liga",
+      "fuente": "FC Barcelona, La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-08-27",
@@ -1643,6 +1813,8 @@
         "https://static.futbolenlatv.com/img/32/20121218093611_bilbao.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Paramount+"
@@ -1881,6 +2053,28 @@
       "pasado": false
     },
     {
+      "fuente": "Real Betis",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-08-29",
+      "hora": "11:00",
+      "equipos": [
+        "Levante",
+        "Real Betis"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218092930_levante.webp",
+        "https://static.futbolenlatv.com/img/32/20130924050626-real-betis.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liverpool",
       "competicion": null,
       "competicion_logo": null,
@@ -1889,6 +2083,28 @@
       "equipos": [
         "Liverpool",
         "Nottingham Forest"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Betis",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "17:00",
+      "equipos": [
+        "Levante",
+        "Real Betis"
       ],
       "logos": [
         null,
