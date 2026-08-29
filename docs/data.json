@@ -1,5 +1,5 @@
 {
-  "generado": "2026-08-28T21:50:51",
+  "generado": "2026-08-29T12:06:46",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -1894,7 +1894,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich",
@@ -1916,7 +1916,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -1938,7 +1938,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -1960,7 +1960,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Manchester City, Premier League",
@@ -1982,7 +1982,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -2004,7 +2004,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -2028,7 +2028,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -2050,7 +2050,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -2075,7 +2075,7 @@
         "TNT Sports Premium",
         "TNT Sports Premium HD"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -2099,7 +2099,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich",
@@ -2121,7 +2121,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -2145,7 +2145,7 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Manchester City, Premier League",
@@ -2167,7 +2167,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -2195,7 +2195,29 @@
       "pasado": false
     },
     {
-      "fuente": "Liverpool, Premier League",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "07:00",
+      "equipos": [
+        "Energie Cottbus",
+        "Greuther Fürth"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130404045206_energie-cottbus.webp",
+        "https://static.futbolenlatv.com/img/32/20180412043510-greuther-furth.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liverpool, Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-08-29",
@@ -2223,6 +2245,28 @@
       "competicion": null,
       "competicion_logo": null,
       "fecha": "2026-08-29",
+      "hora": "07:30",
+      "equipos": [
+        "Middlesbrough",
+        "West Bromwich"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20131019095526-middlesbrough.webp",
+        "https://static.futbolenlatv.com/img/32/20121218101148_west-bromwich-albion.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
       "hora": "09:30",
       "equipos": [
         "SV Elversberg",
@@ -2241,7 +2285,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Betis, La Liga",
+      "fuente": "Real Betis, La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-08-29",
@@ -2261,6 +2305,51 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "11:15",
+      "equipos": [
+        "Strasbourg Alsace",
+        "Lens"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170618112752-strasbourg-alsace.webp",
+        "https://static.futbolenlatv.com/img/32/20130410092341_lens.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "12:30",
+      "equipos": [
+        "Unión San Felipe",
+        "Deportes Santa Cruz"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830044504-union-san-felipe.webp",
+        "https://static.futbolenlatv.com/img/32/20171115115414-deportes-santa-cruz.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -2289,7 +2378,31 @@
       "pasado": false
     },
     {
-      "fuente": "Liverpool",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "13:00",
+      "equipos": [
+        "Académico Viseu",
+        "FC Porto"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20190929075231-academico-viseu.webp",
+        "https://static.futbolenlatv.com/img/32/20121220120801_oporto.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liverpool, Premier League",
       "competicion": null,
       "competicion_logo": null,
       "fecha": "2026-08-29",
@@ -2335,7 +2448,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Betis",
+      "fuente": "Real Betis, La Liga",
       "competicion": null,
       "competicion_logo": null,
       "fecha": "2026-08-29",
@@ -2381,6 +2494,31 @@
       "pasado": false
     },
     {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-08-29",
+      "hora": "17:30",
+      "equipos": [
+        "Deportes Limache",
+        "Everton VM"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210525100629-deportes-limache.webp",
+        "https://static.futbolenlatv.com/img/32/20130213081536_everton-de-vina-del-mar.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Boca Juniors",
       "competicion": "Primera División Argentina Torneo Clausura",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
@@ -2401,6 +2539,53 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "20:30",
+      "equipos": [
+        "Talleres Córdoba",
+        "Central Córdoba"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160714102309-talleres-cordoba.webp",
+        "https://static.futbolenlatv.com/img/32/20140822080941-central-cordoba.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile)",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-08-29",
+      "hora": "23:30",
+      "equipos": [
+        "Deportes Limache",
+        "Everton VM"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium",
+        "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -2708,6 +2893,28 @@
       "pasado": false
     },
     {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-03",
+      "hora": "02:15",
+      "equipos": [
+        "Vélez Sarsfield",
+        "Boca Juniors"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Real Madrid, Real Betis",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
@@ -2728,6 +2935,94 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Manchester City",
+      "competicion": "Premier League",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
+      "fecha": "2026-09-05",
+      "hora": "10:00",
+      "equipos": [
+        "Manchester City",
+        "Coventry City"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160723124026-manchester-city.webp",
+        "https://static.futbolenlatv.com/img/32/20131008053036-coventry-city.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": "Bundesliga",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123343-Alemania.webp",
+      "fecha": "2026-09-05",
+      "hora": "12:30",
+      "equipos": [
+        "Schalke 04",
+        "FC Bayern"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218102045_schalke-04.webp",
+        "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Manchester City",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-05",
+      "hora": "16:00",
+      "equipos": [
+        "Manchester City",
+        "Coventry City"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-05",
+      "hora": "18:30",
+      "equipos": [
+        "Schalke 04",
+        "FC Bayern"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
