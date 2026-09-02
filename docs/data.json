@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-01T12:13:39",
+  "generado": "2026-09-02T12:13:27",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -3245,7 +3245,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -3269,6 +3269,30 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-02",
+      "hora": "09:00",
+      "equipos": [
+        "Sassuolo",
+        "Frosinone"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130412053356_sassuolo.webp",
+        "https://static.futbolenlatv.com/img/32/20131126051712-frosinone.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
       "pasado": false
     },
     {
@@ -3286,10 +3310,34 @@
         "https://static.futbolenlatv.com/img/32/20140830122106-estudiantes-lp.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 4"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-02",
+      "hora": "15:00",
+      "equipos": [
+        "Burnley",
+        "Middlesbrough"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130416055614_burnley.webp",
+        "https://static.futbolenlatv.com/img/32/20131019095526-middlesbrough.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
       ],
       "pasado": false
     },
@@ -3401,11 +3449,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports (610/1610)"
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -3766,11 +3814,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports (610/1610)"
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
