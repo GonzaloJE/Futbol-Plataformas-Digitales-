@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-06T12:12:10",
+  "generado": "2026-09-07T12:13:33",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -4350,7 +4350,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4372,7 +4372,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Manchester United",
@@ -4396,7 +4396,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4418,7 +4418,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Manchester United, Premier League, Otros partidos",
@@ -4442,7 +4442,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4464,7 +4464,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -4488,7 +4488,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "FC Barcelona",
@@ -4514,7 +4514,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4536,7 +4536,7 @@
       "canales_abuelo": [
         "ESPN Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "FC Barcelona, La Liga, Otros partidos",
@@ -4562,7 +4562,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Arsenal",
@@ -4586,7 +4586,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -4608,7 +4608,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Arsenal",
@@ -4632,7 +4632,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -4657,7 +4657,7 @@
         "TNT Sports Premium",
         "TNT Sports Premium HD"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4680,7 +4680,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -4704,7 +4704,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Manchester United, Premier League",
@@ -4728,7 +4728,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo",
@@ -4753,7 +4753,7 @@
         "TNT Sports Premium",
         "TNT Sports Premium HD"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "FC Barcelona, La Liga",
@@ -4779,7 +4779,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo",
@@ -4804,7 +4804,7 @@
         "TNT Sports Premium",
         "TNT Sports Premium HD"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -4826,7 +4826,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Arsenal",
@@ -4850,7 +4850,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo",
@@ -4874,6 +4874,76 @@
       "canales_abuelo": [
         "TNT Sports Premium HD",
         "TNT Sports Premium"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-07",
+      "hora": "10:00",
+      "equipos": [
+        "Corea del Norte",
+        "Portugal"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20131219074735-corea-del-norte.webp",
+        "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-07",
+      "hora": "13:30",
+      "equipos": [
+        "Cagliari",
+        "US Lecce"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170205100747-cagliari.webp",
+        "https://static.futbolenlatv.com/img/32/20160727113448-us-lecce.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga, Otros partidos",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-09-07",
+      "hora": "14:00",
+      "equipos": [
+        "Getafe",
+        "Celta"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20190410094027-getafe.webp",
+        "https://static.futbolenlatv.com/img/32/20121218091134_celta.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 4"
       ],
       "pasado": false
     },
@@ -4900,6 +4970,77 @@
       "pasado": false
     },
     {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-07",
+      "hora": "19:00",
+      "equipos": [
+        "Getafe",
+        "Celta"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-09-07",
+      "hora": "20:00",
+      "equipos": [
+        "Deportes Limache",
+        "Cobresal"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210525100629-deportes-limache.webp",
+        "https://static.futbolenlatv.com/img/32/20130228103526_cobresal.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-09-07",
+      "hora": "21:15",
+      "equipos": [
+        "Unión Santa Fe",
+        "Instituto"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160115093449-union-santa-fe.webp",
+        "https://static.futbolenlatv.com/img/32/20140814115618-instituto-atletico-central-cordoba.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Champions League",
       "competicion": "Champions League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
@@ -4946,7 +5087,7 @@
       "pasado": false
     },
     {
-      "fuente": "Champions League",
+      "fuente": "Champions League, Fase Liga",
       "competicion": "Champions League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
       "fecha": "2026-09-08",
@@ -4970,7 +5111,7 @@
       "pasado": false
     },
     {
-      "fuente": "Champions League",
+      "fuente": "Champions League, Fase Liga",
       "competicion": "Champions League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
       "fecha": "2026-09-08",
@@ -4984,10 +5125,12 @@
         "https://static.futbolenlatv.com/img/32/20240923181122-lask-linz.webp"
       ],
       "canales": [
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5099,11 +5242,13 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5241,11 +5386,13 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5361,11 +5508,13 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5476,10 +5625,14 @@
         "https://static.futbolenlatv.com/img/32/20121218091224_arsenal.webp"
       ],
       "canales": [
-        "ESPN 5"
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
-        "ESPN 5"
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5502,6 +5655,32 @@
       ],
       "canales_abuelo": [
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "FC Barcelona",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-09",
+      "hora": "18:45",
+      "equipos": [
+        "FC Barcelona",
+        "Feyenoord"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -5530,6 +5709,32 @@
       "pasado": false
     },
     {
+      "fuente": "Arsenal",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-09",
+      "hora": "21:00",
+      "equipos": [
+        "Napoli",
+        "Arsenal"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5",
+        "ESPN Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Manchester United",
       "competicion": "Champions League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
@@ -5588,9 +5793,11 @@
         "https://static.futbolenlatv.com/img/32/20230628175311-sabah-fk.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 5"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 5"
       ],
       "pasado": false
@@ -5644,6 +5851,30 @@
       "pasado": false
     },
     {
+      "fuente": "Manchester United",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-10",
+      "hora": "21:00",
+      "equipos": [
+        "Manchester Utd.",
+        "Sabah FK"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "La Liga",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
@@ -5662,6 +5893,28 @@
       ],
       "canales_abuelo": [
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-11",
+      "hora": "16:00",
+      "equipos": [
+        "West Ham",
+        "Wrexham"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160826122526-west-ham.webp",
+        "https://static.futbolenlatv.com/img/32/20131205092802-wrexham.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
       ],
       "pasado": false
     },
@@ -5706,6 +5959,100 @@
       ],
       "canales_abuelo": [
         "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Premier League",
+      "competicion": "Premier League",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
+      "fecha": "2026-09-12",
+      "hora": "11:00",
+      "equipos": [
+        "Liverpool",
+        "Fulham"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20240923180620-liverpool.webp",
+        "https://static.futbolenlatv.com/img/32/20121218101246_fulham.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Premier League",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "16:00",
+      "equipos": [
+        "Liverpool",
+        "Fulham"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-09-13",
+      "hora": "17:30",
+      "equipos": [
+        "Colo Colo",
+        "D. Concepción"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp",
+        "https://static.futbolenlatv.com/img/32/20200922131845-deportes-concepcion.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-13",
+      "hora": "22:30",
+      "equipos": [
+        "Colo Colo",
+        "D. Concepción"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium",
+        "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
