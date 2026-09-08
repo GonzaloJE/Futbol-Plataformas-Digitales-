@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-07T12:13:33",
+  "generado": "2026-09-08T12:14:05",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -4899,7 +4899,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -4921,7 +4921,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -4945,7 +4945,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -4967,7 +4967,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -4991,7 +4991,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -5016,7 +5016,7 @@
         "TNT Sports Premium",
         "TNT Sports Premium HD"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -5037,6 +5037,52 @@
       ],
       "canales_abuelo": [
         "TyC Sports Internacional"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-09-08",
+      "hora": "09:00",
+      "equipos": [
+        "Club Brugge Academy",
+        "Aston Villa Academy"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20190922105951-Club-Brugge.webp",
+        "https://static.futbolenlatv.com/img/32/20240923180734-aston-villa-academy.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-08",
+      "hora": "10:00",
+      "equipos": [
+        "Brasil",
+        "Canadá"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp",
+        "https://static.futbolenlatv.com/img/32/20130625051127-Canada.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -5277,7 +5323,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Betis, Champions League",
+      "fuente": "Real Betis, Champions League, Fase Liga",
       "competicion": "Champions League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171009063756-champions-league.webp",
       "fecha": "2026-09-08",
@@ -5319,6 +5365,29 @@
       ],
       "canales_abuelo": [
         "ESPN 6"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-08",
+      "hora": "18:00",
+      "equipos": [
+        "Deportes Puerto Montt",
+        "Rangers Talca"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp",
+        "https://static.futbolenlatv.com/img/32/20130210121301_rangers-t.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -5459,12 +5528,12 @@
         null
       ],
       "canales": [
-        "ESPN",
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN"
       ],
       "canales_abuelo": [
-        "ESPN",
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
@@ -5685,6 +5754,28 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-09",
+      "hora": "19:00",
+      "equipos": [
+        "Deportivo Riestra",
+        "Banfield"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20141205114007-deportivo-riestra.webp",
+        "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liverpool",
       "competicion": null,
       "competicion_logo": null,
@@ -5889,9 +5980,11 @@
         "https://static.futbolenlatv.com/img/32/20151004120005-valencia.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 3"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 3"
       ],
       "pasado": false
@@ -5941,6 +6034,30 @@
       "pasado": false
     },
     {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-11",
+      "hora": "21:00",
+      "equipos": [
+        "Sevilla FC",
+        "Valencia CF"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Boca Juniors",
       "competicion": "Primera División Argentina Torneo Clausura",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
@@ -5985,6 +6102,31 @@
       "pasado": false
     },
     {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-09-12",
+      "hora": "12:30",
+      "equipos": [
+        "Ñublense",
+        "Everton VM"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130312112222_nublense.webp",
+        "https://static.futbolenlatv.com/img/32/20130213081536_everton-de-vina-del-mar.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Premier League",
       "competicion": null,
       "competicion_logo": null,
@@ -6003,6 +6145,53 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile)",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "17:30",
+      "equipos": [
+        "Ñublense",
+        "Everton VM"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium",
+        "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium HD",
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-13",
+      "hora": "12:30",
+      "equipos": [
+        "Magallanes",
+        "Deportes Puerto Montt"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140814122155-magallanes.webp",
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
       ],
       "pasado": false
     },
@@ -6046,13 +6235,13 @@
         null
       ],
       "canales": [
-        "TNT Sports Premium HD",
+        "HBO MAX",
         "TNT Sports Premium",
-        "HBO MAX"
+        "TNT Sports Premium HD"
       ],
       "canales_abuelo": [
-        "TNT Sports Premium HD",
-        "TNT Sports Premium"
+        "TNT Sports Premium",
+        "TNT Sports Premium HD"
       ],
       "pasado": false
     },
