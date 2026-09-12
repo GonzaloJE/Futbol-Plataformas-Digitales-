@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-11T12:13:37",
+  "generado": "2026-09-12T12:12:10",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -6281,7 +6281,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -6305,7 +6305,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -6327,7 +6327,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -6353,7 +6353,7 @@
         "ESPN",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -6375,7 +6375,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -6397,7 +6397,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -6419,7 +6419,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -6445,7 +6445,7 @@
         "ESPN",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors, Torneo Clausura",
@@ -6469,7 +6469,7 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -6493,6 +6493,28 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "08:00",
+      "equipos": [
+        "Eintracht Braunschweig",
+        "Dynamo Dresden"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130126052529_braunschweig.webp",
+        "https://static.futbolenlatv.com/img/32/20130205031503_dynamo-dresden.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
@@ -6521,6 +6543,50 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "10:00",
+      "equipos": [
+        "Genoa",
+        "Frosinone"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219034524_génova.webp",
+        "https://static.futbolenlatv.com/img/32/20131126051712-frosinone.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "10:30",
+      "equipos": [
+        "Borussia Dortmund",
+        "Paderborn 07"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp",
+        "https://static.futbolenlatv.com/img/32/20130211063858_paderborn-07.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Premier League, Liverpool",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
@@ -6543,7 +6609,7 @@
       "pasado": false
     },
     {
-      "fuente": "Premier League",
+      "fuente": "Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-09-12",
@@ -6626,10 +6692,82 @@
         "https://static.futbolenlatv.com/img/32/20190417031718-elche-cf.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 4"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "14:00",
+      "equipos": [
+        "Racing Santander",
+        "Alavés"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "14:00",
+      "equipos": [
+        "konyaspor",
+        "Trabzonspor"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20150210102958-konyaspor.webp",
+        "https://static.futbolenlatv.com/img/32/20130410022225_trabzonspor.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-09-12",
+      "hora": "14:45",
+      "equipos": [
+        "Independiente Rivadavia",
+        "Aldosivi"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp",
+        "https://static.futbolenlatv.com/img/32/20140826095110-aldosivi.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
@@ -6656,7 +6794,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Madrid",
+      "fuente": "Real Madrid, La Liga",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-09-12",
@@ -6773,7 +6911,7 @@
       "pasado": false
     },
     {
-      "fuente": "Premier League",
+      "fuente": "Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-09-13",
@@ -7033,7 +7171,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Betis",
+      "fuente": "Real Betis, La Liga",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-09-14",
@@ -7169,6 +7307,52 @@
       ],
       "canales_abuelo": [
         "ESPN Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Sudamericana 1/4 de Final",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171101092129-copa-sudamericana.webp",
+      "fecha": "2026-09-15",
+      "hora": "21:30",
+      "equipos": [
+        "São Paulo",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121222105631_sao-paulo.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-16",
+      "hora": "02:30",
+      "equipos": [
+        "São Paulo",
+        "Boca Juniors"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -7417,6 +7601,28 @@
       ],
       "canales_abuelo": [
         "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Primera División Argentina Torneo Clausura",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-09-20",
+      "hora": "14:45",
+      "equipos": [
+        "San Lorenzo",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051730_san-lorenzo-de-almagro.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
