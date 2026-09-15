@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-14T12:13:33",
+  "generado": "2026-09-15T12:12:55",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -7336,7 +7336,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -7358,7 +7358,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Inter de Milan",
@@ -7382,7 +7382,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Real Betis, La Liga, Otros partidos",
@@ -7406,7 +7406,7 @@
         "Disney+ Premium",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League, Otros partidos",
@@ -7430,7 +7430,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -7453,7 +7453,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -7475,7 +7475,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile)",
@@ -7498,7 +7498,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Inter de Milan",
@@ -7522,7 +7522,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Real Betis, La Liga",
@@ -7546,7 +7546,7 @@
         "Disney+ Premium",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League",
@@ -7570,7 +7570,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile)",
@@ -7620,7 +7620,7 @@
       "pasado": false
     },
     {
-      "fuente": "La Liga",
+      "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-09-15",
@@ -7634,9 +7634,11 @@
         "https://static.futbolenlatv.com/img/32/20121218093321_espanol.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN"
       ],
       "pasado": false
@@ -7756,6 +7758,29 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-15",
+      "hora": "18:00",
+      "equipos": [
+        "San Luis",
+        "Antofagasta"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830044225-san-luis.webp",
+        "https://static.futbolenlatv.com/img/32/20130426041528_antofagasta.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "1/4 de Final",
       "competicion": "1/4 de Final",
       "competicion_logo": null,
@@ -7770,9 +7795,11 @@
         "https://static.futbolenlatv.com/img/32/20180122105234-Fluminense.webp"
       ],
       "canales": [
+        "ESPN 5",
         "ESPN Premium"
       ],
       "canales_abuelo": [
+        "ESPN 5",
         "ESPN Premium"
       ],
       "pasado": false
@@ -7920,7 +7947,7 @@
       "pasado": false
     },
     {
-      "fuente": "Europa League",
+      "fuente": "Europa League, Fase Liga",
       "competicion": "Europa League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20231214134715-europa-league.webp",
       "fecha": "2026-09-16",
@@ -7944,7 +7971,7 @@
       "pasado": false
     },
     {
-      "fuente": "Europa League",
+      "fuente": "Europa League, Fase Liga",
       "competicion": "Europa League Fase Liga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20231214134715-europa-league.webp",
       "fecha": "2026-09-16",
@@ -8098,6 +8125,31 @@
       "pasado": false
     },
     {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-09-16",
+      "hora": "18:00",
+      "equipos": [
+        "Coquimbo Unido",
+        "Huachipato"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830043936-coquimbo-unido.webp",
+        "https://static.futbolenlatv.com/img/32/20130404093914_huachipato.webp"
+      ],
+      "canales": [
+        "13Go",
+        "HBO MAX",
+        "T13",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Europa League",
       "competicion": null,
       "competicion_logo": null,
@@ -8118,6 +8170,28 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-16",
+      "hora": "19:00",
+      "equipos": [
+        "Independiente Rivadavia",
+        "Atlético Tucumán"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp",
+        "https://static.futbolenlatv.com/img/32/20140815121718-atletico-tucuman.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
@@ -8162,6 +8236,31 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile)",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-16",
+      "hora": "23:00",
+      "equipos": [
+        "Coquimbo Unido",
+        "Huachipato"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium",
+        "HBO MAX",
+        "T13",
+        "13Go"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -8234,6 +8333,32 @@
       "pasado": false
     },
     {
+      "fuente": "Real Betis",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-17",
+      "hora": "19:00",
+      "equipos": [
+        "Real Betis",
+        "Getafe"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Manchester City",
       "competicion": null,
       "competicion_logo": null,
@@ -8294,9 +8419,11 @@
         "https://static.futbolenlatv.com/img/32/20121218101333_chelsea.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN"
       ],
       "pasado": false
@@ -8326,6 +8453,28 @@
       "pasado": false
     },
     {
+      "fuente": "Inter de Milan",
+      "competicion": "Serie A Italiana",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp",
+      "fecha": "2026-09-19",
+      "hora": "13:00",
+      "equipos": [
+        "AS Roma",
+        "Inter Milan"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20190415081153-roma.webp",
+        "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "FC Barcelona",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
@@ -8346,6 +8495,28 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Inter de Milan",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-19",
+      "hora": "18:00",
+      "equipos": [
+        "AS Roma",
+        "Inter Milan"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
@@ -8410,6 +8581,29 @@
       "canales": [
         "HBO MAX",
         "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-11",
+      "hora": "20:00",
+      "equipos": [
+        "Coquimbo Unido",
+        "Colo Colo"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium",
+        "HBO MAX"
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
