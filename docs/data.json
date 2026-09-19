@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-18T15:50:13",
+  "generado": "2026-09-19T15:22:49",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -8772,7 +8772,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich, Otros partidos",
@@ -8796,7 +8796,7 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -8818,7 +8818,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -8840,7 +8840,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League, Otros partidos",
@@ -8864,7 +8864,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -8888,7 +8888,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich",
@@ -8912,7 +8912,7 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League",
@@ -8936,7 +8936,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -8962,7 +8962,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -8979,10 +8979,14 @@
         "https://static.futbolenlatv.com/img/32/20130213081610_wanderers.webp"
       ],
       "canales": [
+        "Disney+ Premium",
+        "ESPN 5",
         "HBO MAX",
         "TNT Sports Premium"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5",
         "TNT Sports Premium"
       ],
       "pasado": false
@@ -9006,6 +9010,30 @@
       ],
       "canales_abuelo": [
         "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Premier League, Otros partidos",
+      "competicion": "Premier League",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
+      "fecha": "2026-09-19",
+      "hora": "08:30",
+      "equipos": [
+        "Tottenham",
+        "Aston Villa"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20200413194326-tottenham.webp",
+        "https://static.futbolenlatv.com/img/32/20240923180723-aston-villa.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
@@ -9102,6 +9130,29 @@
       "pasado": false
     },
     {
+      "fuente": "La Liga, Otros partidos",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-09-19",
+      "hora": "11:15",
+      "equipos": [
+        "Athletic Club",
+        "Alavés"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218093611_bilbao.webp",
+        "https://static.futbolenlatv.com/img/32/20210127191233-alaves-esports.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 5"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Inter de Milan",
       "competicion": "Serie A Italiana",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp",
@@ -9126,7 +9177,7 @@
       "pasado": false
     },
     {
-      "fuente": "La Liga",
+      "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-09-19",
@@ -9144,6 +9195,54 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Premier League",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-19",
+      "hora": "13:30",
+      "equipos": [
+        "Tottenham",
+        "Aston Villa"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-19",
+      "hora": "14:00",
+      "equipos": [
+        "Osasuna",
+        "Rayo Vallecano"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
       ],
       "pasado": false
     },
@@ -9192,7 +9291,7 @@
       "pasado": false
     },
     {
-      "fuente": "FC Barcelona",
+      "fuente": "FC Barcelona, La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-09-19",
@@ -9206,6 +9305,8 @@
         "https://static.futbolenlatv.com/img/32/20121218093448_barcelona.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Paramount+"
@@ -9494,6 +9595,28 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-20",
+      "hora": "15:45",
+      "equipos": [
+        "AC Milan",
+        "US Lecce"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219034733_milan.webp",
+        "https://static.futbolenlatv.com/img/32/20160727113448-us-lecce.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Real Madrid",
       "competicion": null,
       "competicion_logo": null,
@@ -9554,11 +9677,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports 2 (612/1612)"
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -9613,6 +9736,28 @@
       "pasado": false
     },
     {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Argentina",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-09-27",
+      "hora": "19:15",
+      "equipos": [
+        "Racing Avellaneda",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051639_racing-de-avellaneda.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liga de Primera (Chile)",
       "competicion": "Liga de Primera Mercado Libre",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
@@ -9636,6 +9781,28 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-02",
+      "hora": "20:00",
+      "equipos": [
+        "Deportes Santa Cruz",
+        "SM Arica"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20171115115414-deportes-santa-cruz.webp",
+        "https://static.futbolenlatv.com/img/32/20140807063927-sm-arica.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liga de Primera (Chile)",
       "competicion": null,
       "competicion_logo": null,
@@ -9655,6 +9822,50 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": "Bundesliga",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123343-Alemania.webp",
+      "fecha": "2026-10-10",
+      "hora": "10:30",
+      "equipos": [
+        "Augsburg",
+        "FC Bayern"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218101607_augsburgo.webp",
+        "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-10",
+      "hora": "15:30",
+      "equipos": [
+        "Augsburg",
+        "FC Bayern"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
