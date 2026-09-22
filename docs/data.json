@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-21T17:53:19",
+  "generado": "2026-09-22T16:18:04",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -9938,7 +9938,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -9961,7 +9961,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -9978,9 +9978,13 @@
         "https://static.futbolenlatv.com/img/32/20210112220051-manchester-city-academy.webp"
       ],
       "canales": [
+        "Disney+ Premium",
+        "ESPN",
         "ESPN 2"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN",
         "ESPN 2"
       ],
       "pasado": false
@@ -10031,6 +10035,30 @@
       "pasado": false
     },
     {
+      "fuente": "Semifinales",
+      "competicion": "Semifinales",
+      "competicion_logo": null,
+      "fecha": "2026-09-23",
+      "hora": "10:00",
+      "equipos": [
+        "Italia",
+        "España"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp",
+        "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Otros partidos",
       "competicion": null,
       "competicion_logo": null,
@@ -10049,6 +10077,28 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-24",
+      "hora": "15:45",
+      "equipos": [
+        "Noruega",
+        "Dinamarca"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20171217021744-noruega.webp",
+        "https://static.futbolenlatv.com/img/32/20130207060752_dinamarca.webp"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
       ],
       "pasado": false
     },
@@ -10120,7 +10170,7 @@
       "pasado": false
     },
     {
-      "fuente": "Boca Juniors",
+      "fuente": "Boca Juniors, Otros partidos",
       "competicion": "Copa Argentina",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
       "fecha": "2026-09-27",
@@ -10778,11 +10828,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports (610/1610)"
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
