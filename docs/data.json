@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-22T16:18:04",
+  "generado": "2026-09-23T16:07:14",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -9987,7 +9987,7 @@
         "ESPN",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -10009,7 +10009,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10032,7 +10032,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Semifinales",
@@ -10055,6 +10055,53 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-09-23",
+      "hora": "13:45",
+      "equipos": [
+        "Servette Chênois",
+        "O. Lyonnais Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20201124215724-servette-fc-chenois.webp",
+        "https://static.futbolenlatv.com/img/32/20150914072922-Lyon.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-23",
+      "hora": "18:00",
+      "equipos": [
+        "Curicó Unido",
+        "D. Concepción"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140812094129-curico-unido.webp",
+        "https://static.futbolenlatv.com/img/32/20200922131845-deportes-concepcion.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -10162,6 +10209,7 @@
         "https://static.futbolenlatv.com/img/32/20130327011812_audax-italiano.webp"
       ],
       "canales": [
+        "HBO MAX",
         "TNT Sports Premium"
       ],
       "canales_abuelo": [
@@ -10653,6 +10701,32 @@
         "Disney+ Premium"
       ],
       "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Sudamericana",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171101092129-copa-sudamericana.webp",
+      "fecha": "2026-10-13",
+      "hora": "21:30",
+      "equipos": [
+        "Boca Juniors",
+        "Vasco da Gama"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp",
+        "https://static.futbolenlatv.com/img/32/20121222111424_vasco-da-gama.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Disney+ Premium",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO",
         "Disney+ Premium"
       ],
       "pasado": false
