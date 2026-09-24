@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-23T16:07:14",
+  "generado": "2026-09-24T16:30:49",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10056,7 +10056,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -10080,7 +10080,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10102,6 +10102,30 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-24",
+      "hora": "13:00",
+      "equipos": [
+        "Andorra",
+        "Malta"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130829095957-andorra.webp",
+        "https://static.futbolenlatv.com/img/32/20130323115003_malta.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
@@ -10146,6 +10170,29 @@
       ],
       "canales_abuelo": [
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-24",
+      "hora": "18:00",
+      "equipos": [
+        "O'Higgins",
+        "Deportes Santa Cruz"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130418043026_ohiggings.webp",
+        "https://static.futbolenlatv.com/img/32/20171115115414-deportes-santa-cruz.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -10207,6 +10254,29 @@
       "logos": [
         "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp",
         "https://static.futbolenlatv.com/img/32/20130327011812_audax-italiano.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-26",
+      "hora": "01:00",
+      "equipos": [
+        "Colo Colo",
+        "Audax Italiano"
+      ],
+      "logos": [
+        null,
+        null
       ],
       "canales": [
         "HBO MAX",
