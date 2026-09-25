@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-24T16:30:49",
+  "generado": "2026-09-25T16:33:02",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10127,7 +10127,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10149,7 +10149,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10171,7 +10171,7 @@
       "canales_abuelo": [
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10194,7 +10194,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "1/4 de Final",
@@ -10216,6 +10216,30 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-25",
+      "hora": "13:00",
+      "equipos": [
+        "Georgia",
+        "Irlanda del Norte"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130318120408_georgia.webp",
+        "https://static.futbolenlatv.com/img/32/20130316103549_irlandadelnorte.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
       ],
       "pasado": false
     },
@@ -10242,7 +10266,29 @@
       "pasado": false
     },
     {
-      "fuente": "Colo Colo",
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-25",
+      "hora": "15:45",
+      "equipos": [
+        "Italia",
+        "Bélgica"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp",
+        "https://static.futbolenlatv.com/img/32/20130121023530_belgica.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo, Otros partidos",
       "competicion": "Copa Chile",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
       "fecha": "2026-09-25",
@@ -10284,6 +10330,50 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-26",
+      "hora": "10:00",
+      "equipos": [
+        "Eslovenia",
+        "Escocia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204101247_eslovenia.webp",
+        "https://static.futbolenlatv.com/img/32/20130425075433_escocia.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-27",
+      "hora": "10:00",
+      "equipos": [
+        "Lituania",
+        "Azerbaiyán"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130528084732-Lituania.webp",
+        "https://static.futbolenlatv.com/img/32/20130323115040_azerbaijan.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
       ],
       "pasado": false
     },
@@ -10418,6 +10508,29 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "16:15",
+      "equipos": [
+        "SC Braga",
+        "Sporting CP"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121220121022_sporting-braga.webp",
+        "https://static.futbolenlatv.com/img/32/20121220121058_sporting-clube-de-portugal.webp"
+      ],
+      "canales": [
+        "DGO",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
