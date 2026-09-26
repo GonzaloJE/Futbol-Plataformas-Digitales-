@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-25T16:33:02",
+  "generado": "2026-09-26T15:47:47",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10241,7 +10241,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10263,7 +10263,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10285,7 +10285,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo, Otros partidos",
@@ -10308,7 +10308,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo",
@@ -10334,6 +10334,29 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-26",
+      "hora": "07:30",
+      "equipos": [
+        "Juventus Femminile",
+        "Napoli Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp",
+        "https://static.futbolenlatv.com/img/32/20240923180529-napoli-femminile.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 4"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Fase de grupos",
       "competicion": "Fase de grupos",
       "competicion_logo": null,
@@ -10348,10 +10371,57 @@
         "https://static.futbolenlatv.com/img/32/20130425075433_escocia.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 4"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-26",
+      "hora": "13:00",
+      "equipos": [
+        "Islandia",
+        "Estonia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20171107062145-islandia.webp",
+        "https://static.futbolenlatv.com/img/32/20130531113736-Estonia.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-26",
+      "hora": "13:30",
+      "equipos": [
+        "Unión San Felipe",
+        "Deportes Copiapó"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830044504-union-san-felipe.webp",
+        "https://static.futbolenlatv.com/img/32/20160120070733-deportes-copiapo.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -10440,6 +10510,50 @@
       ],
       "canales_abuelo": [
         "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-28",
+      "hora": "13:00",
+      "equipos": [
+        "Georgia",
+        "Ucrania"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130318120408_georgia.webp",
+        "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-10-01",
+      "hora": "16:00",
+      "equipos": [
+        "Man City Femenino",
+        "Real Madrid Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210112220051-manchester-city-academy.webp",
+        "https://static.futbolenlatv.com/img/32/20200916192901-real-madrid-femenino.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
       ],
       "pasado": false
     },
