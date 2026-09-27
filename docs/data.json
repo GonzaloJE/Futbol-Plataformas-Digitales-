@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-26T15:47:47",
+  "generado": "2026-09-27T16:24:42",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10331,7 +10331,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10354,7 +10354,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10378,7 +10378,7 @@
         "Disney+ Premium",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10400,7 +10400,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10423,6 +10423,30 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-27",
+      "hora": "08:00",
+      "equipos": [
+        "Inter Milan Femenino",
+        "Fiorentina Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp",
+        "https://static.futbolenlatv.com/img/32/20220713172257-fiorentina-femminile.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
       "pasado": false
     },
     {
@@ -10440,10 +10464,57 @@
         "https://static.futbolenlatv.com/img/32/20130323115040_azerbaijan.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 3"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "1/8 de final",
+      "competicion": "1/8 de final",
+      "competicion_logo": null,
+      "fecha": "2026-09-27",
+      "hora": "12:30",
+      "equipos": [
+        "Antofagasta",
+        "Deportes Iquique"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130426041528_antofagasta.webp",
+        "https://static.futbolenlatv.com/img/32/20130208052436_deportivo-iquique.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-27",
+      "hora": "13:00",
+      "equipos": [
+        "Serbia",
+        "Holanda"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130318120848_serbia.webp",
+        "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
       ],
       "pasado": false
     },
@@ -10540,6 +10611,28 @@
       "competicion": "Fase Liga",
       "competicion_logo": null,
       "fecha": "2026-10-01",
+      "hora": "13:45",
+      "equipos": [
+        "Austria Wien Frauen",
+        "Inter Milan Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130809100221-austria-viena.webp",
+        "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-10-01",
       "hora": "16:00",
       "equipos": [
         "Man City Femenino",
@@ -10622,6 +10715,28 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "12:30",
+      "equipos": [
+        "Magallanes",
+        "Curicó Unido"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140814122155-magallanes.webp",
+        "https://static.futbolenlatv.com/img/32/20140812094129-curico-unido.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
       ],
       "pasado": false
     },
@@ -11175,6 +11290,8 @@
         "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Paramount+"
