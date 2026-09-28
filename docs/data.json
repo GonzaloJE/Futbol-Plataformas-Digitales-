@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-27T16:24:42",
+  "generado": "2026-09-28T19:15:31",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10447,7 +10447,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10471,7 +10471,7 @@
         "Disney+ Premium",
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "1/8 de final",
@@ -10494,7 +10494,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10516,7 +10516,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors, Otros partidos",
@@ -10538,7 +10538,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -10560,7 +10560,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -10582,7 +10582,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10599,10 +10599,58 @@
         "https://static.futbolenlatv.com/img/32/20130304045244_ucrania.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 2"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-28",
+      "hora": "15:45",
+      "equipos": [
+        "Bélgica",
+        "Francia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130121023530_belgica.webp",
+        "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-30",
+      "hora": "21:00",
+      "equipos": [
+        "Argentina",
+        "Bolivia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp",
+        "https://static.futbolenlatv.com/img/32/20121227105210_bolivia.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -10651,7 +10699,29 @@
       "pasado": false
     },
     {
-      "fuente": "Liga de Primera (Chile)",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-01",
+      "hora": "21:15",
+      "equipos": [
+        "Platense",
+        "Estudiantes LP"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140812073636-platense.webp",
+        "https://static.futbolenlatv.com/img/32/20140830122106-estudiantes-lp.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
       "competicion": "Liga de Primera Mercado Libre",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
       "fecha": "2026-10-02",
@@ -11021,8 +11091,8 @@
         null
       ],
       "canales": [
-        "TNT Sports Premium",
-        "HBO MAX"
+        "HBO MAX",
+        "TNT Sports Premium"
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
@@ -11136,6 +11206,34 @@
         "DSports (610/1610)",
         "Disney+ Premium",
         "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO",
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-14",
+      "hora": "02:30",
+      "equipos": [
+        "Boca Juniors",
+        "Vasco da Gama"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)",
+        "Disney+ Premium",
+        "DSports (610/1610)"
       ],
       "canales_abuelo": [
         "DGO",
