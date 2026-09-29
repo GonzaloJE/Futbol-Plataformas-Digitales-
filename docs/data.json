@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T19:15:31",
+  "generado": "2026-09-29T17:39:07",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10606,7 +10606,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10627,6 +10627,75 @@
       ],
       "canales_abuelo": [
         "ESPN"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-29",
+      "hora": "13:00",
+      "equipos": [
+        "Finlandia",
+        "Bielorrusia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130124053613_finlandia.webp",
+        "https://static.futbolenlatv.com/img/32/20130531114057-Bielorrusia.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-09-29",
+      "hora": "15:45",
+      "equipos": [
+        "España",
+        "Croacia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+        "https://static.futbolenlatv.com/img/32/20130317094139_croacia.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo, Otros partidos",
+      "competicion": "Copa Chile",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-09-29",
+      "hora": "18:00",
+      "equipos": [
+        "Deportes Puerto Montt",
+        "Colo Colo"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp",
+        "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -11228,12 +11297,12 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
+        "DGO",
+        "DSports (610/1610)",
         "Disney+ Premium",
-        "DSports (610/1610)"
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO",
