@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T17:39:07",
+  "generado": "2026-09-30T17:37:41",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10652,7 +10652,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10674,7 +10674,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo, Otros partidos",
@@ -10692,6 +10692,72 @@
       ],
       "canales": [
         "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-30",
+      "hora": "13:00",
+      "equipos": [
+        "Lituania",
+        "Andorra"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130528084732-Lituania.webp",
+        "https://static.futbolenlatv.com/img/32/20130829095957-andorra.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-09-30",
+      "hora": "13:45",
+      "equipos": [
+        "AS Roma Femenino",
+        "FC Barcelona Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20150914073021-Roma.webp",
+        "https://static.futbolenlatv.com/img/32/20150808023001-barcelona-b.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-09-30",
+      "hora": "20:00",
+      "equipos": [
+        "D. Concepción",
+        "O'Higgins"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20200922131845-deportes-concepcion.webp",
+        "https://static.futbolenlatv.com/img/32/20130418043026_ohiggings.webp"
+      ],
+      "canales": [
         "TNT Sports Premium"
       ],
       "canales_abuelo": [
@@ -10720,6 +10786,28 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-01",
+      "hora": "13:00",
+      "equipos": [
+        "Azerbaiyán",
+        "Liechtenstein"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130323115040_azerbaijan.webp",
+        "https://static.futbolenlatv.com/img/32/20130531114532-Liechtenstein.webp"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
       ],
       "pasado": false
     },
@@ -10876,6 +10964,52 @@
       ],
       "canales_abuelo": [
         "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": "Copa Chile",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-10-06",
+      "hora": "20:30",
+      "equipos": [
+        "Colo Colo",
+        "Deportes Puerto Montt"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp",
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-07",
+      "hora": "01:30",
+      "equipos": [
+        "Colo Colo",
+        "Deportes Puerto Montt"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "TNT Sports Premium",
+        "HBO MAX"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
