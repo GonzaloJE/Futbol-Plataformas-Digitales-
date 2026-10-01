@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T17:37:41",
+  "generado": "2026-10-01T18:01:45",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10719,7 +10719,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -10741,7 +10741,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10763,7 +10763,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10787,7 +10787,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10804,9 +10804,11 @@
         "https://static.futbolenlatv.com/img/32/20130531114532-Liechtenstein.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 2"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 2"
       ],
       "pasado": false
@@ -10830,6 +10832,28 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-01",
+      "hora": "15:45",
+      "equipos": [
+        "Dinamarca",
+        "Portugal"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130207060752_dinamarca.webp",
+        "https://static.futbolenlatv.com/img/32/20130204101449_portugal.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
       ],
       "pasado": false
     },
@@ -10923,6 +10947,30 @@
       "pasado": false
     },
     {
+      "fuente": "Boca Juniors",
+      "competicion": "Primera División Argentina Torneo Clausura",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-10-02",
+      "hora": "21:30",
+      "equipos": [
+        "Boca Juniors",
+        "Unión Santa Fe"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp",
+        "https://static.futbolenlatv.com/img/32/20160115093449-union-santa-fe.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Liga de Primera (Chile)",
       "competicion": null,
       "competicion_logo": null,
@@ -10942,6 +10990,31 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "02:30",
+      "equipos": [
+        "Boca Juniors",
+        "Unión Santa Fe"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Fanatiz (Míralo en vivo)",
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5"
       ],
       "pasado": false
     },
@@ -11014,6 +11087,52 @@
       "pasado": false
     },
     {
+      "fuente": "La Liga",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-10-09",
+      "hora": "16:00",
+      "equipos": [
+        "Málaga",
+        "Espanyol"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130729013601-malaga.webp",
+        "https://static.futbolenlatv.com/img/32/20121218093321_espanol.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "16:00",
+      "equipos": [
+        "West Ham",
+        "QPR"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160826122526-west-ham.webp",
+        "https://static.futbolenlatv.com/img/32/20171127122045-qpr.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Otros partidos",
       "competicion": null,
       "competicion_logo": null,
@@ -11033,6 +11152,30 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "21:00",
+      "equipos": [
+        "Málaga",
+        "Espanyol"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
@@ -11391,7 +11534,7 @@
       "pasado": false
     },
     {
-      "fuente": "Boca Juniors",
+      "fuente": "Boca Juniors, Otros partidos",
       "competicion": "Copa Sudamericana",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171101092129-copa-sudamericana.webp",
       "fecha": "2026-10-13",
