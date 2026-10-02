@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-01T18:01:45",
+  "generado": "2026-10-02T17:29:04",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10811,7 +10811,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -10833,7 +10833,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10855,7 +10855,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -10877,7 +10877,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -10892,6 +10892,74 @@
       "logos": [
         "https://static.futbolenlatv.com/img/32/20140812073636-platense.webp",
         "https://static.futbolenlatv.com/img/32/20140830122106-estudiantes-lp.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-02",
+      "hora": "11:00",
+      "equipos": [
+        "Kazajistán",
+        "Moldavia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130318120627_kazajistan.webp",
+        "https://static.futbolenlatv.com/img/32/20130528083921-Moldavia.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-02",
+      "hora": "15:45",
+      "equipos": [
+        "Francia",
+        "Italia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp",
+        "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-02",
+      "hora": "19:15",
+      "equipos": [
+        "Independiente",
+        "Instituto"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051437_independiente.webp",
+        "https://static.futbolenlatv.com/img/32/20140814115618-instituto-atletico-central-cordoba.webp"
       ],
       "canales": [
         "TyC Sports Internacional"
@@ -10947,7 +11015,7 @@
       "pasado": false
     },
     {
-      "fuente": "Boca Juniors",
+      "fuente": "Boca Juniors, Torneo Clausura",
       "competicion": "Primera División Argentina Torneo Clausura",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
       "fecha": "2026-10-02",
@@ -11008,9 +11076,9 @@
         null
       ],
       "canales": [
-        "Fanatiz (Míralo en vivo)",
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "Fanatiz (Míralo en vivo)"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
@@ -11083,6 +11151,28 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "15:45",
+      "equipos": [
+        "Lens",
+        "O. Lyonnais"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130410092341_lens.webp",
+        "https://static.futbolenlatv.com/img/32/20121221104814_lyon.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
       ],
       "pasado": false
     },
