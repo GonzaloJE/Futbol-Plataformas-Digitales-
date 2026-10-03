@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-02T17:29:04",
+  "generado": "2026-10-03T15:43:45",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -10923,7 +10923,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -10945,7 +10945,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -10967,7 +10967,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -10990,7 +10990,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11012,7 +11012,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors, Torneo Clausura",
@@ -11036,7 +11036,7 @@
         "Disney+ Premium",
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile)",
@@ -11087,6 +11087,30 @@
       "pasado": false
     },
     {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "10:00",
+      "equipos": [
+        "Finlandia",
+        "Albania"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130124053613_finlandia.webp",
+        "https://static.futbolenlatv.com/img/32/20130529043729-Albania.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Otros partidos",
       "competicion": null,
       "competicion_logo": null,
@@ -11101,10 +11125,101 @@
         "https://static.futbolenlatv.com/img/32/20140812094129-curico-unido.webp"
       ],
       "canales": [
+        "HBO MAX",
+        "TNT Sports",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports",
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "13:00",
+      "equipos": [
+        "Croacia",
+        "Inglaterra"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130317094139_croacia.webp",
+        "https://static.futbolenlatv.com/img/32/20130204124525_inglaterra.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "14:45",
+      "equipos": [
+        "Defensa y Justicia",
+        "San Lorenzo"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140621094213-defensa-y-justicia.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051730_san-lorenzo-de-almagro.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "15:00",
+      "equipos": [
+        "Deportes Copiapó",
+        "Deportes Puerto Montt"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160120070733-deportes-copiapo.webp",
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp"
+      ],
+      "canales": [
         "TNT Sports"
       ],
       "canales_abuelo": [
         "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "equipos": [
+        "Atlético Tucumán",
+        "Barracas Central"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140815121718-atletico-tucuman.webp",
+        "https://static.futbolenlatv.com/img/32/20141118022620-barracas.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
       ],
       "pasado": false
     },
@@ -11246,6 +11361,30 @@
       "pasado": false
     },
     {
+      "fuente": "Boca Juniors",
+      "competicion": "Primera División Argentina Torneo Clausura",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-10-09",
+      "hora": "19:30",
+      "equipos": [
+        "Instituto",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140814115618-instituto-atletico-central-cordoba.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "La Liga",
       "competicion": null,
       "competicion_logo": null,
@@ -11266,6 +11405,30 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-10",
+      "hora": "00:30",
+      "equipos": [
+        "Instituto",
+        "Boca Juniors"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 5"
       ],
       "pasado": false
     },
@@ -11380,6 +11543,51 @@
       "pasado": false
     },
     {
+      "fuente": "FC Barcelona",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-10-10",
+      "hora": "13:30",
+      "equipos": [
+        "FC Barcelona",
+        "Getafe"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218093448_barcelona.webp",
+        "https://static.futbolenlatv.com/img/32/20190410094027-getafe.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile)",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-10-10",
+      "hora": "15:00",
+      "equipos": [
+        "Cobresal",
+        "U de Concepción"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130228103526_cobresal.webp",
+        "https://static.futbolenlatv.com/img/32/20240708093118-universidad-concepcion.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Bayern Munich",
       "competicion": null,
       "competicion_logo": null,
@@ -11398,6 +11606,30 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Madrid, La Liga, Otros partidos",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-10-10",
+      "hora": "16:00",
+      "equipos": [
+        "Real Madrid",
+        "Villarreal"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20160725122745-real-madrid.webp",
+        "https://static.futbolenlatv.com/img/32/20121218093727_villareal.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -11446,6 +11678,54 @@
       "pasado": false
     },
     {
+      "fuente": "FC Barcelona",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-10",
+      "hora": "18:30",
+      "equipos": [
+        "FC Barcelona",
+        "Getafe"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Madrid",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-10",
+      "hora": "21:00",
+      "equipos": [
+        "Real Madrid",
+        "Villarreal"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Manchester City, Liverpool",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
@@ -11464,6 +11744,30 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Betis",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-10-11",
+      "hora": "13:30",
+      "equipos": [
+        "Real Betis",
+        "Osasuna"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130924050626-real-betis.webp",
+        "https://static.futbolenlatv.com/img/32/20121218093507_osasuna.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -11509,6 +11813,32 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Real Betis",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-11",
+      "hora": "18:30",
+      "equipos": [
+        "Real Betis",
+        "Osasuna"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)",
+        "DSports (610/1610)"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -11858,6 +12188,28 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Argentina Semifinales",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-11-14",
+      "hora": "19:00",
+      "equipos": [
+        "Banfield",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
