@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-04T16:26:51",
+  "generado": "2026-10-05T20:23:28",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -11244,7 +11244,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Semifinales",
@@ -11268,7 +11268,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11291,7 +11291,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11313,7 +11313,7 @@
       "canales_abuelo": [
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11336,7 +11336,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11358,7 +11358,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11380,7 +11380,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11402,7 +11402,7 @@
       "canales_abuelo": [
         "ESPN 6"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -11417,6 +11417,96 @@
       "logos": [
         "https://static.futbolenlatv.com/img/32/20121219051144_argentinos-juniors.webp",
         "https://static.futbolenlatv.com/img/32/20121219051849_tigre.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-05",
+      "hora": "13:00",
+      "equipos": [
+        "Chipre",
+        "Letonia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130529043416-Chipre.webp",
+        "https://static.futbolenlatv.com/img/32/20130524093608_letonia.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-05",
+      "hora": "15:45",
+      "equipos": [
+        "Francia",
+        "Bélgica"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130124053558_francia.webp",
+        "https://static.futbolenlatv.com/img/32/20130121023530_belgica.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-05",
+      "hora": "15:45",
+      "equipos": [
+        "Rumanía",
+        "Suecia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130304045215_rumania.webp",
+        "https://static.futbolenlatv.com/img/32/20130204101348_suecia.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-05",
+      "hora": "16:45",
+      "equipos": [
+        "Deportivo Riestra",
+        "Central Córdoba"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20141205114007-deportivo-riestra.webp",
+        "https://static.futbolenlatv.com/img/32/20140822080941-central-cordoba.webp"
       ],
       "canales": [
         "TyC Sports Internacional"
@@ -11449,7 +11539,31 @@
       "pasado": false
     },
     {
-      "fuente": "Colo Colo",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-06",
+      "hora": "20:00",
+      "equipos": [
+        "Argentina",
+        "Benín"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp",
+        "https://static.futbolenlatv.com/img/32/20141107103232-benin.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo, Otros partidos",
       "competicion": "Copa Chile",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
       "fecha": "2026-10-06",
@@ -11486,8 +11600,8 @@
         null
       ],
       "canales": [
-        "TNT Sports Premium",
-        "HBO MAX"
+        "HBO MAX",
+        "TNT Sports Premium"
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
@@ -11578,6 +11692,7 @@
       ],
       "canales": [
         "DGO",
+        "DSports 2 (612/1612)",
         "Paramount+"
       ],
       "canales_abuelo": [
@@ -11941,11 +12056,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports (610/1610)"
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
