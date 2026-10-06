@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-05T20:23:28",
+  "generado": "2026-10-06T17:56:20",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -11448,7 +11448,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11470,7 +11470,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11492,7 +11492,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -11514,7 +11514,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -11535,6 +11535,74 @@
       ],
       "canales_abuelo": [
         "ESPN 5"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-06",
+      "hora": "11:00",
+      "equipos": [
+        "Kazajistán",
+        "Islas Feroe"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130318120627_kazajistan.webp",
+        "https://static.futbolenlatv.com/img/32/20130528080156-Islas-Feroe.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-06",
+      "hora": "15:45",
+      "equipos": [
+        "Croacia",
+        "España"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130317094139_croacia.webp",
+        "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-06",
+      "hora": "15:45",
+      "equipos": [
+        "Suiza",
+        "Macedonia Norte"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130410124433_suiza.webp",
+        "https://static.futbolenlatv.com/img/32/20130528081503-Macedonia.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
       ],
       "pasado": false
     },
@@ -11605,6 +11673,50 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "14:30",
+      "equipos": [
+        "Aldosivi",
+        "Sarmiento"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140826095110-aldosivi.webp",
+        "https://static.futbolenlatv.com/img/32/20140814114704-sarmiento.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "15:30",
+      "equipos": [
+        "Borussia Dortmund",
+        "Werder Bremen"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp",
+        "https://static.futbolenlatv.com/img/32/20121218102210_werder-bremen.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
       ],
       "pasado": false
     },
