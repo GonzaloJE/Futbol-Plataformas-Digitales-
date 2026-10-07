@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-06T17:56:20",
+  "generado": "2026-10-07T18:26:40",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -11560,7 +11560,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11582,7 +11582,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -11604,7 +11604,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11628,7 +11628,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo, Otros partidos",
@@ -11651,7 +11651,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Colo Colo",
@@ -11673,6 +11673,50 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "1/8 de final",
+      "competicion": "1/8 de final",
+      "competicion_logo": null,
+      "fecha": "2026-10-07",
+      "hora": "19:00",
+      "equipos": [
+        "Coquimbo Unido",
+        "Cobreloa"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830043936-coquimbo-unido.webp",
+        "https://static.futbolenlatv.com/img/32/20130218073335_cobreloa.webp"
+      ],
+      "canales": [
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-09",
+      "hora": "13:30",
+      "equipos": [
+        "Eintracht Braunschweig",
+        "Holstein Kiel"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130126052529_braunschweig.webp",
+        "https://static.futbolenlatv.com/img/32/20240923181238-holstein-kiel.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
@@ -11743,7 +11787,7 @@
       "pasado": false
     },
     {
-      "fuente": "La Liga",
+      "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-10-09",
