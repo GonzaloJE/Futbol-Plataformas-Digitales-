@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-07T18:26:40",
+  "generado": "2026-10-08T18:25:54",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -11674,7 +11674,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "1/8 de final",
@@ -11696,7 +11696,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -11920,7 +11920,8 @@
       ],
       "canales": [
         "Disney+ Premium",
-        "ESPN 5"
+        "ESPN 5",
+        "Fanatiz (Míralo en vivo)"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
@@ -12061,7 +12062,7 @@
       "pasado": false
     },
     {
-      "fuente": "Liga de Primera (Chile)",
+      "fuente": "Liga de Primera (Chile), Otros partidos",
       "competicion": "Liga de Primera Mercado Libre",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
       "fecha": "2026-10-10",
@@ -12708,6 +12709,28 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Argentina Semifinales",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "equipos": [
+        "Banfield",
+        "Boca Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
