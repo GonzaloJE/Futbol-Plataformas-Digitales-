@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-16T16:05:46",
+  "generado": "2026-10-17T14:57:51",
   "partidos": [
     {
       "fuente": "Selección Chilena",
@@ -14330,7 +14330,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -14352,7 +14352,7 @@
       "canales_abuelo": [
         "ESPN Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -14374,7 +14374,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -14398,7 +14398,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -14420,7 +14420,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -14443,7 +14443,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -14465,7 +14465,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -14489,7 +14489,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors, Torneo Clausura",
@@ -14514,7 +14514,7 @@
         "Disney+ Premium",
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Boca Juniors",
@@ -14541,7 +14541,52 @@
       "pasado": false
     },
     {
-      "fuente": "Premier League",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "07:30",
+      "equipos": [
+        "Sassuolo Femenino",
+        "Napoli Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20191029065924-sassuolo.webp",
+        "https://static.futbolenlatv.com/img/32/20240923180529-napoli-femminile.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 4"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "08:00",
+      "equipos": [
+        "VfL Wolfsburg",
+        "Heidenheim"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20260521144128-wolfsburgo.webp",
+        "https://static.futbolenlatv.com/img/32/20240923181052-fc-heidenheim-1846.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-10-17",
@@ -14601,6 +14646,8 @@
         "https://static.futbolenlatv.com/img/32/20240712123854-at-madrid.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Paramount+"
@@ -14629,6 +14676,28 @@
       ],
       "canales_abuelo": [
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "10:30",
+      "equipos": [
+        "Schalke 04",
+        "Mainz 05"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218102045_schalke-04.webp",
+        "https://static.futbolenlatv.com/img/32/20121218102018_mainz-05.webp"
+      ],
+      "canales": [
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -14681,7 +14750,7 @@
       "pasado": false
     },
     {
-      "fuente": "La Liga",
+      "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-10-17",
@@ -14695,10 +14764,57 @@
         "https://static.futbolenlatv.com/img/32/20190417031718-elche-cf.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 2"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "12:15",
+      "equipos": [
+        "Strasbourg Alsace",
+        "PSG"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170618112752-strasbourg-alsace.webp",
+        "https://static.futbolenlatv.com/img/32/20131224050227-psg.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "12:30",
+      "equipos": [
+        "Magallanes",
+        "San Luis"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140814122155-magallanes.webp",
+        "https://static.futbolenlatv.com/img/32/20140830044225-san-luis.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -14723,6 +14839,28 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN 3"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "13:00",
+      "equipos": [
+        "Fenerbahçe",
+        "Alanyaspor"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121221105219_fenerbahçe.webp",
+        "https://static.futbolenlatv.com/img/32/20170722121846-alanyaspor.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
       ],
       "pasado": false
     },
@@ -14799,6 +14937,28 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-17",
+      "hora": "15:00",
+      "equipos": [
+        "Banfield",
+        "Argentinos Juniors"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051144_argentinos-juniors.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
@@ -15041,7 +15201,7 @@
       "pasado": false
     },
     {
-      "fuente": "Real Madrid",
+      "fuente": "Real Madrid, La Liga",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-10-18",
@@ -15108,11 +15268,63 @@
       ],
       "canales": [
         "Disney+ Premium",
+        "ESPN",
         "ESPN 2"
       ],
       "canales_abuelo": [
         "Disney+ Premium",
+        "ESPN",
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Selección Chilena",
+      "competicion": "FIFA Mundial Femenino Sub-17 Fase de grupos",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171010060959-fifa.webp",
+      "fecha": "2026-10-19",
+      "hora": "15:00",
+      "equipos": [
+        "Australia",
+        "Chile"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130501101148_australia.webp",
+        "https://static.futbolenlatv.com/img/32/20130322050634_chile.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Selección Chilena",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-19",
+      "hora": "20:00",
+      "equipos": [
+        "Australia",
+        "Chile"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+",
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -15409,16 +15621,18 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
+        "DGO",
+        "DSports (610/1610)",
         "Disney+ Premium",
-        "DSports (610/1610)"
+        "ESPN",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO",
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
