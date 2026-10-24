@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T16:28:38",
+  "generado": "2026-10-24T15:23:46",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -16986,7 +16986,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -17010,7 +17010,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -17032,7 +17032,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -17058,7 +17058,7 @@
         "ESPN 3",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League, Otros partidos",
@@ -17082,7 +17082,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -17104,7 +17104,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -17126,7 +17126,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -17148,7 +17148,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -17171,7 +17171,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -17194,7 +17194,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League",
@@ -17218,7 +17218,7 @@
         "Disney+ Premium",
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -17244,7 +17244,7 @@
         "ESPN 3",
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile)",
@@ -17270,7 +17270,29 @@
       "pasado": false
     },
     {
-      "fuente": "Manchester City",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "08:00",
+      "equipos": [
+        "Hertha Berlin",
+        "Arminia Bielefeld"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130126034953_hertha_berlin.webp",
+        "https://static.futbolenlatv.com/img/32/20130918093706-arminia-bielefeld.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Manchester City, Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-10-24",
@@ -17294,6 +17316,28 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "08:30",
+      "equipos": [
+        "Charlton Athletic",
+        "Norwich"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130918093714-charlton.webp",
+        "https://static.futbolenlatv.com/img/32/20121218101209_norwich-city.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
@@ -17308,10 +17352,34 @@
         "https://static.futbolenlatv.com/img/32/20190417031718-elche-cf.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 2"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "10:00",
+      "equipos": [
+        "Como 1907",
+        "Sassuolo"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20211013183924-calcio-como.webp",
+        "https://static.futbolenlatv.com/img/32/20130412053356_sassuolo.webp"
+      ],
+      "canales": [
+        "ESPN 3"
+      ],
+      "canales_abuelo": [
+        "ESPN 3"
       ],
       "pasado": false
     },
@@ -17358,6 +17426,55 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "12:00",
+      "equipos": [
+        "Brasil",
+        "Noruega"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204124155_brasil.webp",
+        "https://static.futbolenlatv.com/img/32/20171217021744-noruega.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-10-24",
+      "hora": "12:30",
+      "equipos": [
+        "La Serena",
+        "D. Concepción"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140825122800-la-serena.webp",
+        "https://static.futbolenlatv.com/img/32/20200922131845-deportes-concepcion.webp"
+      ],
+      "canales": [
+        "13Go",
+        "HBO MAX",
+        "T13",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
       ],
       "pasado": false
     },
@@ -17410,6 +17527,74 @@
       "pasado": false
     },
     {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "14:00",
+      "equipos": [
+        "Rayo Vallecano",
+        "Elche"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "14:45",
+      "equipos": [
+        "Banfield",
+        "Lanús"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140621094222-banfield.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051504_lanús.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "15:45",
+      "equipos": [
+        "Lens",
+        "Paris FC"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130410092341_lens.webp",
+        "https://static.futbolenlatv.com/img/32/20150717031822-paris-fc.webp"
+      ],
+      "canales": [
+        "ESPN 4"
+      ],
+      "canales_abuelo": [
+        "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Arsenal",
       "competicion": null,
       "competicion_logo": null,
@@ -17452,6 +17637,28 @@
       ],
       "canales_abuelo": [
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-24",
+      "hora": "17:30",
+      "equipos": [
+        "Deportes Puerto Montt",
+        "Unión San Felipe"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210531160744-deportes-puerto-montt.webp",
+        "https://static.futbolenlatv.com/img/32/20140830044504-union-san-felipe.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
       ],
       "pasado": false
     },
@@ -17732,11 +17939,11 @@
         null
       ],
       "canales": [
-        "DSports 2 (612/1612)",
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -17909,6 +18116,28 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-10-26",
+      "hora": "12:00",
+      "equipos": [
+        "Besiktas",
+        "Istanbul Basaksehir"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130815104433-besiktas.webp",
+        "https://static.futbolenlatv.com/img/32/20240923180951-istanbul-bacakcehir.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
       ],
       "pasado": false
     },
