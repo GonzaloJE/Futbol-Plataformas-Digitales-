@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T18:54:33",
+  "generado": "2026-11-07T17:25:56",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -21835,7 +21835,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Torneo Clausura",
@@ -21857,7 +21857,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -21879,7 +21879,7 @@
       "canales_abuelo": [
         "ESPN 4"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -21901,7 +21901,7 @@
       "canales_abuelo": [
         "ESPN 5"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga, Otros partidos",
@@ -21927,7 +21927,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League",
@@ -21949,7 +21949,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -21971,7 +21971,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Premier League",
@@ -21993,7 +21993,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -22019,6 +22019,28 @@
       "canales_abuelo": [
         "DGO"
       ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-07",
+      "hora": "09:00",
+      "equipos": [
+        "Nürnberg",
+        "Darmstadt 98"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219112404_nuremberg.webp",
+        "https://static.futbolenlatv.com/img/32/20140327100328-darmstadt-98.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
       "pasado": false
     },
     {
@@ -22036,10 +22058,60 @@
         "https://static.futbolenlatv.com/img/32/20200413194326-tottenham.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-07",
+      "hora": "09:30",
+      "equipos": [
+        "Wrexham",
+        "Wolverhampton"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20131205092802-wrexham.webp",
+        "https://static.futbolenlatv.com/img/32/20130801021453-wolverhamton.webp"
+      ],
+      "canales": [
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga, Otros partidos",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-11-07",
+      "hora": "10:00",
+      "equipos": [
+        "Málaga",
+        "Racing Santander"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130729013601-malaga.webp",
+        "https://static.futbolenlatv.com/img/32/20121218095805_racing.webp"
+      ],
+      "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -22068,6 +22140,28 @@
       "pasado": false
     },
     {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-07",
+      "hora": "11:30",
+      "equipos": [
+        "Borussia Dortmund",
+        "SV Elversberg"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218101655_borussia-dortmund.webp",
+        "https://static.futbolenlatv.com/img/32/20160510123231-sv-elversberg.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Arsenal",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
@@ -22092,7 +22186,7 @@
       "pasado": false
     },
     {
-      "fuente": "La Liga",
+      "fuente": "La Liga, Otros partidos",
       "competicion": "La Liga EA Sports",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
       "fecha": "2026-11-07",
@@ -22161,6 +22255,28 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Torneo Clausura",
+      "competicion": "Torneo Clausura",
+      "competicion_logo": null,
+      "fecha": "2026-11-07",
+      "hora": "15:00",
+      "equipos": [
+        "Gimnasia Mendoza",
+        "Independiente Rivadavia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140919100933-gimnasia-mendoza.webp",
+        "https://static.futbolenlatv.com/img/32/20140815122429-independiente-rm.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
