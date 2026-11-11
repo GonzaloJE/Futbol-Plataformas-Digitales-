@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-10T19:18:41",
+  "generado": "2026-11-11T19:15:22",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -22914,6 +22914,50 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium",
+        "ESPN"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-11-11",
+      "hora": "14:45",
+      "equipos": [
+        "OH Leuven Women",
+        "HB Køge Kvinder"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20150727103948-oh-leuven.webp",
+        "https://static.futbolenlatv.com/img/32/20210914100441-hb-koge.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase Liga",
+      "competicion": "Fase Liga",
+      "competicion_logo": null,
+      "fecha": "2026-11-11",
+      "hora": "17:00",
+      "equipos": [
+        "Juventus Femminile",
+        "O. Lyonnais Femenino"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170117094900-juventus.webp",
+        "https://static.futbolenlatv.com/img/32/20150914072922-Lyon.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
         "ESPN"
       ],
       "pasado": false
