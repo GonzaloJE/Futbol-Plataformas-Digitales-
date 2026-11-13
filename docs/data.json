@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-12T19:32:39",
+  "generado": "2026-11-13T19:12:57",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -22982,7 +22982,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23004,7 +23004,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -23026,7 +23026,7 @@
       "canales_abuelo": [
         "ESPN 3"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23047,6 +23047,30 @@
       ],
       "canales_abuelo": [
         "ESPN 2"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-13",
+      "hora": "14:00",
+      "equipos": [
+        "Moldavia",
+        "Kazajistán"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130528083921-Moldavia.webp",
+        "https://static.futbolenlatv.com/img/32/20130318120627_kazajistan.webp"
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
+        "ESPN"
       ],
       "pasado": false
     },
@@ -23069,6 +23093,50 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-13",
+      "hora": "16:45",
+      "equipos": [
+        "Holanda",
+        "Grecia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130130075711_holanda.webp",
+        "https://static.futbolenlatv.com/img/32/20140624094707-grecia.webp"
+      ],
+      "canales": [
+        "ESPN 2"
+      ],
+      "canales_abuelo": [
+        "ESPN 2"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Colo Colo",
+      "competicion": "Amistoso",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20171121011248-amistoso-02.webp",
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "equipos": [
+        "Colo Colo",
+        "Racing Avellaneda"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130208052500_colo-colo.webp",
+        "https://static.futbolenlatv.com/img/32/20121219051639_racing-de-avellaneda.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
@@ -23251,7 +23319,73 @@
       "pasado": false
     },
     {
-      "fuente": "Bayern Munich",
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-15",
+      "hora": "12:00",
+      "equipos": [
+        "Santiago Wanderers",
+        "Deportes Copiapó"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130213081610_wanderers.webp",
+        "https://static.futbolenlatv.com/img/32/20160120070733-deportes-copiapo.webp"
+      ],
+      "canales": [
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-15",
+      "hora": "16:45",
+      "equipos": [
+        "Bélgica",
+        "Italia"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130121023530_belgica.webp",
+        "https://static.futbolenlatv.com/img/32/20130111045624_italia.webp"
+      ],
+      "canales": [
+        "ESPN 7"
+      ],
+      "canales_abuelo": [
+        "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-15",
+      "hora": "18:00",
+      "equipos": [
+        "SM Arica",
+        "San Luis"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140807063927-sm-arica.webp",
+        "https://static.futbolenlatv.com/img/32/20140830044225-san-luis.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich, Otros partidos",
       "competicion": "Bundesliga",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123343-Alemania.webp",
       "fecha": "2026-11-20",
@@ -23265,10 +23399,12 @@
         "https://static.futbolenlatv.com/img/32/20130126051303_colonia.webp"
       ],
       "canales": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -23310,10 +23446,12 @@
         null
       ],
       "canales": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN Premium"
       ],
       "canales_abuelo": [
-        "Disney+ Premium"
+        "Disney+ Premium",
+        "ESPN Premium"
       ],
       "pasado": false
     },
