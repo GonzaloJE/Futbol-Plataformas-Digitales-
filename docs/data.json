@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-15T18:29:24",
+  "generado": "2026-11-16T21:39:09",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -23408,7 +23408,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23430,7 +23430,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23452,7 +23452,7 @@
       "canales_abuelo": [
         "ESPN"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -23475,7 +23475,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23497,7 +23497,7 @@
       "canales_abuelo": [
         "ESPN 2"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23519,7 +23519,7 @@
       "canales_abuelo": [
         "ESPN 7"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Otros partidos",
@@ -23541,7 +23541,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase de grupos",
@@ -23558,10 +23558,34 @@
         "https://static.futbolenlatv.com/img/32/20130410124517_eslovaquia.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 4"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-16",
+      "hora": "14:00",
+      "equipos": [
+        "Islandia",
+        "Luxemburgo"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20171107062145-islandia.webp",
+        "https://static.futbolenlatv.com/img/32/20130606115125-luxemburgo.webp"
+      ],
+      "canales": [
+        "ESPN"
+      ],
+      "canales_abuelo": [
+        "ESPN"
       ],
       "pasado": false
     },
@@ -23584,6 +23608,30 @@
       ],
       "canales_abuelo": [
         "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-16",
+      "hora": "21:00",
+      "equipos": [
+        "Argentina",
+        "Costa Rica"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130204101418_argentina.webp",
+        "https://static.futbolenlatv.com/img/32/20130604072827-Costa-Rica.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -23638,7 +23686,7 @@
       "pasado": false
     },
     {
-      "fuente": "Liga de Primera (Chile)",
+      "fuente": "Liga de Primera (Chile), Otros partidos",
       "competicion": "Liga de Primera Mercado Libre",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
       "fecha": "2026-11-20",
@@ -23681,6 +23729,32 @@
       "canales_abuelo": [
         "Disney+ Premium",
         "ESPN Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-20",
+      "hora": "21:00",
+      "equipos": [
+        "Athletic Club",
+        "Espanyol"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "DSports 2 (612/1612)",
+        "DGO",
+        "Amazon Prime Video (Ver en vivo)",
+        "Paramount+",
+        "DAZN (Ver en directo)"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -23908,11 +23982,11 @@
         null
       ],
       "canales": [
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
         "DAZN (Ver en directo)",
-        "DSports (610/1610)"
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -24045,8 +24119,8 @@
         null
       ],
       "canales": [
-        "TNT Sports Premium",
-        "HBO MAX"
+        "HBO MAX",
+        "TNT Sports Premium"
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
@@ -24270,6 +24344,28 @@
       ],
       "canales_abuelo": [
         "Disney+ Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Boca Juniors",
+      "competicion": "Copa Argentina Final",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123852-Argentina.webp",
+      "fecha": "2026-12-02",
+      "hora": "00:00",
+      "equipos": [
+        "Boca Juniors",
+        "Platense"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp",
+        "https://static.futbolenlatv.com/img/32/20140812073636-platense.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
