@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T19:57:27",
+  "generado": "2026-11-20T19:37:30",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -23791,7 +23791,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -23813,7 +23813,7 @@
       "canales_abuelo": [
         "Disney+ Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Fase Liga",
@@ -23834,6 +23834,30 @@
       ],
       "canales_abuelo": [
         "ESPN"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-20",
+      "hora": "11:00",
+      "equipos": [
+        "España",
+        "China"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+        "https://static.futbolenlatv.com/img/32/20130221121827_china.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -23911,6 +23935,29 @@
       "pasado": false
     },
     {
+      "fuente": "Liguilla de Ascenso",
+      "competicion": "Liguilla de Ascenso",
+      "competicion_logo": null,
+      "fecha": "2026-11-20",
+      "hora": "18:00",
+      "equipos": [
+        "Deportes Recoleta",
+        "Santiago Wanderers"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20170915101318-deportes-recoleta.webp",
+        "https://static.futbolenlatv.com/img/32/20130213081610_wanderers.webp"
+      ],
+      "canales": [
+        "HBO MAX",
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "1/8 de Final",
       "competicion": "1/8 de Final",
       "competicion_logo": null,
@@ -23971,11 +24018,11 @@
         null
       ],
       "canales": [
-        "DSports 2 (612/1612)",
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -24006,7 +24053,7 @@
       "pasado": false
     },
     {
-      "fuente": "Manchester City, Premier League",
+      "fuente": "Manchester City, Premier League, Otros partidos",
       "competicion": "Premier League",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20140605095816-Inglaterra.webp",
       "fecha": "2026-11-21",
@@ -24314,7 +24361,7 @@
       "pasado": false
     },
     {
-      "fuente": "Boca Juniors",
+      "fuente": "Boca Juniors, Final",
       "competicion": "Copa Sudamericana Final",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171101092129-copa-sudamericana.webp",
       "fecha": "2026-11-21",
@@ -24411,7 +24458,8 @@
       ],
       "canales": [
         "DGO",
-        "DSports (610/1610)"
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -24479,8 +24527,11 @@
         null
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
-        "DSports (610/1610)"
+        "DSports (610/1610)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
