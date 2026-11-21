@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T19:37:30",
+  "generado": "2026-11-21T18:42:32",
   "partidos": [
     {
       "fuente": "Copa del Rey",
@@ -23859,7 +23859,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich, Otros partidos",
@@ -23883,7 +23883,7 @@
         "Disney+ Premium",
         "ESPN Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -23909,7 +23909,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile), Otros partidos",
@@ -23932,7 +23932,7 @@
       "canales_abuelo": [
         "TNT Sports Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liguilla de Ascenso",
@@ -23955,7 +23955,7 @@
       "canales_abuelo": [
         "TNT Sports"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "1/8 de Final",
@@ -23977,7 +23977,7 @@
       "canales_abuelo": [
         "TyC Sports Internacional"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Bayern Munich",
@@ -24001,7 +24001,7 @@
         "Disney+ Premium",
         "ESPN Premium"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "La Liga",
@@ -24027,7 +24027,7 @@
       "canales_abuelo": [
         "DGO"
       ],
-      "pasado": false
+      "pasado": true
     },
     {
       "fuente": "Liga de Primera (Chile)",
@@ -24049,6 +24049,28 @@
       ],
       "canales_abuelo": [
         "TNT Sports Premium"
+      ],
+      "pasado": true
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-21",
+      "hora": "09:00",
+      "equipos": [
+        "VfL Wolfsburg",
+        "Holstein Kiel"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20260521144128-wolfsburgo.webp",
+        "https://static.futbolenlatv.com/img/32/20240923181238-holstein-kiel.webp"
+      ],
+      "canales": [
+        "Disney+ Premium"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium"
       ],
       "pasado": false
     },
@@ -24123,6 +24145,30 @@
       "pasado": false
     },
     {
+      "fuente": "Fase de grupos",
+      "competicion": "Fase de grupos",
+      "competicion_logo": null,
+      "fecha": "2026-11-21",
+      "hora": "10:30",
+      "equipos": [
+        "Camerún",
+        "Venezuela"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130528114257-Camerun.webp",
+        "https://static.futbolenlatv.com/img/32/20130316103615_venezuela.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSPORTS+ Plus (613/1613)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Otros partidos",
       "competicion": null,
       "competicion_logo": null,
@@ -24141,6 +24187,55 @@
       ],
       "canales_abuelo": [
         "ESPN 7"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Liga de Primera (Chile), Otros partidos",
+      "competicion": "Liga de Primera Mercado Libre",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20150201102036-Chile.webp",
+      "fecha": "2026-11-21",
+      "hora": "12:00",
+      "equipos": [
+        "Coquimbo Unido",
+        "Everton VM"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20140830043936-coquimbo-unido.webp",
+        "https://static.futbolenlatv.com/img/32/20130213081536_everton-de-vina-del-mar.webp"
+      ],
+      "canales": [
+        "13Go",
+        "HBO MAX",
+        "T13",
+        "TNT Sports Premium"
+      ],
+      "canales_abuelo": [
+        "TNT Sports Premium"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "La Liga, Otros partidos",
+      "competicion": "La Liga EA Sports",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123206-espana.webp",
+      "fecha": "2026-11-21",
+      "hora": "12:15",
+      "equipos": [
+        "Rayo Vallecano",
+        "Valencia CF"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121226112150_rayo-vallecano_(1).webp",
+        "https://static.futbolenlatv.com/img/32/20151004120005-valencia.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
@@ -24253,12 +24348,36 @@
         "https://static.futbolenlatv.com/img/32/20130924050626-real-betis.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports 2 (612/1612)",
         "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Otros partidos",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-21",
+      "hora": "14:30",
+      "equipos": [
+        "Schalke 04",
+        "Stuttgart"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218102045_schalke-04.webp",
+        "https://static.futbolenlatv.com/img/32/20220520171113-stuttgart.webp"
+      ],
+      "canales": [
+        "ESPN Premium"
+      ],
+      "canales_abuelo": [
+        "ESPN Premium"
       ],
       "pasado": false
     },
@@ -24277,11 +24396,11 @@
         null
       ],
       "canales": [
-        "DSPORTS+ Plus (613/1613)",
-        "DGO",
         "Amazon Prime Video (Ver en vivo)",
-        "Paramount+",
-        "DAZN (Ver en directo)"
+        "DAZN (Ver en directo)",
+        "DGO",
+        "DSPORTS+ Plus (613/1613)",
+        "Paramount+"
       ],
       "canales_abuelo": [
         "DGO"
@@ -24361,6 +24480,28 @@
       "pasado": false
     },
     {
+      "fuente": "Final",
+      "competicion": "Final",
+      "competicion_logo": null,
+      "fecha": "2026-11-21",
+      "hora": "18:30",
+      "equipos": [
+        "Cobreloa",
+        "San Luis"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130218073335_cobreloa.webp",
+        "https://static.futbolenlatv.com/img/32/20140830044225-san-luis.webp"
+      ],
+      "canales": [
+        "TNT Sports"
+      ],
+      "canales_abuelo": [
+        "TNT Sports"
+      ],
+      "pasado": false
+    },
+    {
       "fuente": "Boca Juniors, Final",
       "competicion": "Copa Sudamericana Final",
       "competicion_logo": "https://static.futbolenlatv.com/img/32/20171101092129-copa-sudamericana.webp",
@@ -24375,6 +24516,8 @@
         "https://static.futbolenlatv.com/img/32/20121219051310_boca-juniors.webp"
       ],
       "canales": [
+        "Amazon Prime Video (Ver en vivo)",
+        "DAZN (Ver en directo)",
         "DGO",
         "DSports (610/1610)",
         "Disney+ Premium",
@@ -24535,6 +24678,28 @@
       ],
       "canales_abuelo": [
         "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "1/8 de Final",
+      "competicion": "1/8 de Final",
+      "competicion_logo": null,
+      "fecha": "2026-11-22",
+      "hora": "16:00",
+      "equipos": [
+        "Rosario Central",
+        "Gimnasia Mendoza"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20130804050508-rosario-central.webp",
+        "https://static.futbolenlatv.com/img/32/20140919100933-gimnasia-mendoza.webp"
+      ],
+      "canales": [
+        "TyC Sports Internacional"
+      ],
+      "canales_abuelo": [
+        "TyC Sports Internacional"
       ],
       "pasado": false
     },
@@ -24983,9 +25148,11 @@
         "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp"
       ],
       "canales": [
+        "Disney+ Premium",
         "ESPN 5"
       ],
       "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 5"
       ],
       "pasado": false
@@ -25052,6 +25219,30 @@
         "ESPN 5"
       ],
       "canales_abuelo": [
+        "ESPN 5"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": null,
+      "competicion_logo": null,
+      "fecha": "2026-11-25",
+      "hora": "21:00",
+      "equipos": [
+        "Lille",
+        "FC Bayern"
+      ],
+      "logos": [
+        null,
+        null
+      ],
+      "canales": [
+        "Disney+ Premium",
+        "ESPN 5"
+      ],
+      "canales_abuelo": [
+        "Disney+ Premium",
         "ESPN 5"
       ],
       "pasado": false
@@ -25233,6 +25424,54 @@
       ],
       "canales_abuelo": [
         "ESPN 4"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Bayern Munich",
+      "competicion": "Copa de Alemania",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123343-Alemania.webp",
+      "fecha": "2026-12-01",
+      "hora": "16:45",
+      "equipos": [
+        "FC Bayern",
+        "Hertha Berlin"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20121218101641_bayern-munich.webp",
+        "https://static.futbolenlatv.com/img/32/20130126034953_hertha_berlin.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports 2 (612/1612)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
+      ],
+      "pasado": false
+    },
+    {
+      "fuente": "Inter de Milan",
+      "competicion": "Coppa Italia",
+      "competicion_logo": "https://static.futbolenlatv.com/img/32/20130727123437-Italia.webp",
+      "fecha": "2026-12-01",
+      "hora": "17:00",
+      "equipos": [
+        "Inter Milan",
+        "Genoa"
+      ],
+      "logos": [
+        "https://static.futbolenlatv.com/img/32/20210330172154-inter-milan.webp",
+        "https://static.futbolenlatv.com/img/32/20121219034524_génova.webp"
+      ],
+      "canales": [
+        "DGO",
+        "DSports (610/1610)",
+        "Paramount+"
+      ],
+      "canales_abuelo": [
+        "DGO"
       ],
       "pasado": false
     },
